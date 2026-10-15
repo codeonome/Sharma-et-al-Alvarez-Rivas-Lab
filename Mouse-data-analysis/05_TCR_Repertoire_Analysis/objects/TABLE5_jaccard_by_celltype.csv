@@ -1,0 +1,5 @@
+"CELLTYP","REC_n","RCU_n","Intersection","Union","Jaccard"
+"Tfh/Tph-like",63,23,10,76,0.132
+"Tregs-like",34,23,5,52,0.096
+"Th17-like",17,21,2,36,0.056
+"Th2-like",11,10,1,20,0.05

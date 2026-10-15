@@ -1,0 +1,112 @@
+"version","universe","from","best_match","fold","p","direction","positive_control"
+"published","permissive","C1","Teff/Tem-like CD8 (9)",13.97,6.16e-17,"human -> mouse",NA
+"published","permissive","C2","Naive T-like (5)",10.63,1.89e-63,"human -> mouse","RECOVERED"
+"published","permissive","C3","Teff/Tem-like CD8 (9)",13.41,1.19e-11,"human -> mouse",NA
+"published","permissive","C4","Trm type mixed CD8+ CD4 (6)",5.32,1.71e-22,"human -> mouse","FAILED"
+"published","permissive","C5","Teff/Tem-like CD8 (9)",5.41,7.43e-07,"human -> mouse",NA
+"published","permissive","C6","Trm/Exh-like CD8 (8)",6.48,4.4e-16,"human -> mouse",NA
+"published","permissive","C7","Trm type mixed CD8+ CD4 (6)",12.35,7.56e-33,"human -> mouse",NA
+"published","permissive","C8","Teff/Tem-like CD8 (9)",6.62,7.23e-08,"human -> mouse",NA
+"published","permissive","C9","Th2-like (0)",5.8,1.26e-14,"human -> mouse",NA
+"published","permissive","Naive T-like (5)","C2",10.63,1.89e-63,"mouse -> human",NA
+"published","permissive","Teff CD8-like (1)","C1",6.24,6.17e-13,"mouse -> human",NA
+"published","permissive","Teff CD8-like (4)","C1",5.79,3.55e-13,"mouse -> human",NA
+"published","permissive","Teff/Tem-like CD8 (9)","C1",13.97,6.16e-17,"mouse -> human",NA
+"published","permissive","Tfh/Tph-like (2)","C7",5.45,1.65e-13,"mouse -> human",NA
+"published","permissive","Th17-like (7)","C8",5.32,5.92e-18,"mouse -> human",NA
+"published","permissive","Th2-like (0)","C7",6.99,1.06e-09,"mouse -> human",NA
+"published","permissive","Tregs-like (3)","C5",4.35,9.77e-17,"mouse -> human",NA
+"published","permissive","Trm type mixed CD8+ CD4 (6)","C7",12.35,7.56e-33,"mouse -> human",NA
+"published","permissive","Trm/Exh-like CD8 (8)","C7",6.79,1.67e-21,"mouse -> human",NA
+"published","testable","C1","Teff/Tem-like CD8 (9)",2.88,6.76e-06,"human -> mouse",NA
+"published","testable","C2","Naive T-like (5)",3.56,6.63e-34,"human -> mouse","RECOVERED"
+"published","testable","C3","Teff/Tem-like CD8 (9)",2.82,0.000342,"human -> mouse",NA
+"published","testable","C4","Th17-like (7)",1.54,0.000138,"human -> mouse","RECOVERED"
+"published","testable","C5","Tregs-like (3)",1.64,0.000728,"human -> mouse",NA
+"published","testable","C6","Trm/Exh-like CD8 (8)",2.36,1.18e-05,"human -> mouse",NA
+"published","testable","C7","Trm type mixed CD8+ CD4 (6)",3.03,3.23e-12,"human -> mouse",NA
+"published","testable","C8","Th17-like (7)",1.84,0.000177,"human -> mouse",NA
+"published","testable","C9","Naive T-like (5)",1.74,5.69e-06,"human -> mouse",NA
+"published","testable","Naive T-like (5)","C2",3.56,6.63e-34,"mouse -> human",NA
+"published","testable","Teff CD8-like (1)","C1",1.82,0.00239,"mouse -> human",NA
+"published","testable","Teff CD8-like (4)","C1",2.31,1.79e-05,"mouse -> human",NA
+"published","testable","Teff/Tem-like CD8 (9)","C1",2.88,6.76e-06,"mouse -> human",NA
+"published","testable","Tfh/Tph-like (2)","C7",1.81,0.000797,"mouse -> human",NA
+"published","testable","Th17-like (7)","C8",1.84,0.000177,"mouse -> human",NA
+"published","testable","Th2-like (0)","C7",1.65,0.0256,"mouse -> human",NA
+"published","testable","Tregs-like (3)","C6",1.71,0.0271,"mouse -> human",NA
+"published","testable","Trm type mixed CD8+ CD4 (6)","C7",3.03,3.23e-12,"mouse -> human",NA
+"published","testable","Trm/Exh-like CD8 (8)","C6",2.36,1.18e-05,"mouse -> human",NA
+"published","marker_space","C1","Teff/Tem-like CD8 (9)",2.28,0.000139,"human -> mouse",NA
+"published","marker_space","C2","Naive T-like (5)",2.38,6.34e-23,"human -> mouse","RECOVERED"
+"published","marker_space","C3","Teff/Tem-like CD8 (9)",2.33,0.00181,"human -> mouse",NA
+"published","marker_space","C4","Th17-like (7)",1.4,0.000291,"human -> mouse","RECOVERED"
+"published","marker_space","C5","Tregs-like (3)",1.36,0.00636,"human -> mouse",NA
+"published","marker_space","C6","Trm/Exh-like CD8 (8)",1.79,0.000308,"human -> mouse",NA
+"published","marker_space","C7","Trm type mixed CD8+ CD4 (6)",2.38,1.1e-09,"human -> mouse",NA
+"published","marker_space","C8","Th17-like (7)",1.47,0.00223,"human -> mouse",NA
+"published","marker_space","C9","Naive T-like (5)",1.42,0.000146,"human -> mouse",NA
+"published","marker_space","Naive T-like (5)","C2",2.38,6.34e-23,"mouse -> human",NA
+"published","marker_space","Teff CD8-like (1)","C1",1.5,0.0165,"mouse -> human",NA
+"published","marker_space","Teff CD8-like (4)","C1",1.71,0.00165,"mouse -> human",NA
+"published","marker_space","Teff/Tem-like CD8 (9)","C3",2.33,0.00181,"mouse -> human",NA
+"published","marker_space","Tfh/Tph-like (2)","C3",1.36,0.0726,"mouse -> human",NA
+"published","marker_space","Th17-like (7)","C8",1.47,0.00223,"mouse -> human",NA
+"published","marker_space","Th2-like (0)","C7",1.31,0.138,"mouse -> human",NA
+"published","marker_space","Tregs-like (3)","C5",1.36,0.00636,"mouse -> human",NA
+"published","marker_space","Trm type mixed CD8+ CD4 (6)","C7",2.38,1.1e-09,"mouse -> human",NA
+"published","marker_space","Trm/Exh-like CD8 (8)","C7",1.85,9.29e-06,"mouse -> human",NA
+"matched","permissive","C1","Teff/Tem-like CD8",17.2,8.37e-18,"human -> mouse",NA
+"matched","permissive","C2","Naive T-like",16.2,8.59e-94,"human -> mouse","RECOVERED"
+"matched","permissive","C3","Teff/Tem-like CD8",13.93,3.22e-10,"human -> mouse",NA
+"matched","permissive","C4","Trm type mixed CD8+ CD4",7.67,7.5e-31,"human -> mouse","FAILED"
+"matched","permissive","C5","Naive T-like",8.7,9.67e-47,"human -> mouse",NA
+"matched","permissive","C6","Naive T-like",8.29,9.66e-18,"human -> mouse",NA
+"matched","permissive","C7","Trm type mixed CD8+ CD4",16.91,1.13e-35,"human -> mouse",NA
+"matched","permissive","C8","Naive T-like",8.76,9.11e-39,"human -> mouse",NA
+"matched","permissive","C9","Naive T-like",8.78,1.9e-55,"human -> mouse",NA
+"matched","permissive","Naive T-like","C2",16.2,8.59e-94,"mouse -> human",NA
+"matched","permissive","Teff CD8-like","C1",7.64,4.55e-19,"mouse -> human",NA
+"matched","permissive","Teff/Tem-like CD8","C1",17.2,8.37e-18,"mouse -> human",NA
+"matched","permissive","Tfh/Tph-like","C7",8.65,1.03e-26,"mouse -> human",NA
+"matched","permissive","Th17-like","C8",7.36,7.94e-25,"mouse -> human",NA
+"matched","permissive","Th2-like","C7",9.27,1.46e-11,"mouse -> human",NA
+"matched","permissive","Tregs-like","C4",6.73,2.38e-46,"mouse -> human",NA
+"matched","permissive","Trm type mixed CD8+ CD4","C7",16.91,1.13e-35,"mouse -> human",NA
+"matched","permissive","Trm/Exh-like CD8","C7",9.56,1e-39,"mouse -> human",NA
+"matched","testable","C1","Teff/Tem-like CD8",2.96,8.28e-06,"human -> mouse",NA
+"matched","testable","C2","Naive T-like",2.57,2.7e-26,"human -> mouse","RECOVERED"
+"matched","testable","C3","Teff/Tem-like CD8",2.42,0.00382,"human -> mouse",NA
+"matched","testable","C4","Th17-like",1.47,2.38e-05,"human -> mouse","RECOVERED"
+"matched","testable","C5","Teff CD8-like",1.5,0.00114,"human -> mouse",NA
+"matched","testable","C6","Th17-like",1.74,0.00647,"human -> mouse",NA
+"matched","testable","C7","Trm type mixed CD8+ CD4",3.04,1.25e-11,"human -> mouse",NA
+"matched","testable","C8","Th17-like",1.61,0.000369,"human -> mouse",NA
+"matched","testable","C9","Naive T-like",1.68,8.88e-09,"human -> mouse",NA
+"matched","testable","Naive T-like","C2",2.57,2.7e-26,"mouse -> human",NA
+"matched","testable","Teff CD8-like","C1",2.04,2.5e-05,"mouse -> human",NA
+"matched","testable","Teff/Tem-like CD8","C1",2.96,8.28e-06,"mouse -> human",NA
+"matched","testable","Tfh/Tph-like","C7",1.64,0.000287,"mouse -> human",NA
+"matched","testable","Th17-like","C6",1.74,0.00647,"mouse -> human",NA
+"matched","testable","Th2-like","C7",1.77,0.0129,"mouse -> human",NA
+"matched","testable","Tregs-like","C6",1.59,0.0125,"mouse -> human",NA
+"matched","testable","Trm type mixed CD8+ CD4","C7",3.04,1.25e-11,"mouse -> human",NA
+"matched","testable","Trm/Exh-like CD8","C7",1.88,5.26e-08,"mouse -> human",NA
+"matched","marker_space","C1","Teff/Tem-like CD8",2.55,4.39e-05,"human -> mouse",NA
+"matched","marker_space","C2","Naive T-like",2.28,3.45e-24,"human -> mouse","RECOVERED"
+"matched","marker_space","C3","Teff/Tem-like CD8",2.33,0.0045,"human -> mouse",NA
+"matched","marker_space","C4","Tregs-like",1.28,0.000792,"human -> mouse","FAILED"
+"matched","marker_space","C5","Naive T-like",1.36,0.000491,"human -> mouse",NA
+"matched","marker_space","C6","Naive T-like",1.54,0.00656,"human -> mouse",NA
+"matched","marker_space","C7","Trm type mixed CD8+ CD4",2.37,1.25e-08,"human -> mouse",NA
+"matched","marker_space","C8","Naive T-like",1.42,0.000535,"human -> mouse",NA
+"matched","marker_space","C9","Naive T-like",1.6,1.87e-08,"human -> mouse",NA
+"matched","marker_space","Naive T-like","C2",2.28,3.45e-24,"mouse -> human",NA
+"matched","marker_space","Teff CD8-like","C1",1.59,0.00231,"mouse -> human",NA
+"matched","marker_space","Teff/Tem-like CD8","C1",2.55,4.39e-05,"mouse -> human",NA
+"matched","marker_space","Tfh/Tph-like","C7",1.43,0.00429,"mouse -> human",NA
+"matched","marker_space","Th17-like","C6",1.44,0.0441,"mouse -> human",NA
+"matched","marker_space","Th2-like","C7",1.45,0.0684,"mouse -> human",NA
+"matched","marker_space","Tregs-like","C6",1.4,0.0472,"mouse -> human",NA
+"matched","marker_space","Trm type mixed CD8+ CD4","C7",2.37,1.25e-08,"mouse -> human",NA
+"matched","marker_space","Trm/Exh-like CD8","C7",1.81,6.82e-08,"mouse -> human",NA

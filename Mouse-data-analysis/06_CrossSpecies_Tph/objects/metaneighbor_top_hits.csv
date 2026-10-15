@@ -1,0 +1,7 @@
+"Study_ID|Celltype_1","Study_ID|Celltype_2","Mean_AUROC","Match_type"
+"human|C5","mouse|Tregs-like",0.86,"Reciprocal_top_hit"
+"human|C1","mouse|Teff CD8-like",0.82,"Reciprocal_top_hit"
+"human|C3","mouse|Teff/Tem-like CD8",0.77,"Reciprocal_top_hit"
+"human|C9","mouse|Th2-like",0.76,"Reciprocal_top_hit"
+"human|C2","mouse|Naive T-like",0.74,"Reciprocal_top_hit"
+"human|C8","mouse|Prolif T",0.66,"Reciprocal_top_hit"

@@ -1,0 +1,4 @@
+"method","n_CD8","n_CD4","pct_CD8","pct_CD4","note"
+"Raw marker+ (resolvable only)",384,202,66,34,"586 cells with exactly one lineage marker"
+"kNN label transfer (majority vote)",468,305,61,39,"187 dropout cells assigned by k=30-neighbour majority vote"
+"double-positive (excluded)",NA,NA,NA,NA,"8 Cd4+Cd8+ cells excluded"

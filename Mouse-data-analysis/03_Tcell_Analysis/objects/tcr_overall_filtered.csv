@@ -1,0 +1,5 @@
+TCR_Status,Freq,Percentage
+Paired (TRA+TRB),6067,41.75
+Single chain (TRA or TRB),3184,21.91
+γδ (TRG/TRD),1,0.01
+No TCR,5278,36.32

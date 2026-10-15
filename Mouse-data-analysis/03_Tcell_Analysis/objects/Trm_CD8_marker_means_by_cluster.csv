@@ -1,0 +1,331 @@
+"celltype","gene","mean_expr","pct_expr"
+"Naive T-like","Bcl6",0.121,9.1
+"Naive T-like","Ccl5",0.398,13.7
+"Naive T-like","Ccr7",2.195,90.2
+"Naive T-like","Cd3e",1.651,83.8
+"Naive T-like","Cd4",0.157,9.4
+"Naive T-like","Cd40lg",0.087,4.8
+"Naive T-like","Cd69",0.565,33.5
+"Naive T-like","Cd8a",0.543,37
+"Naive T-like","Cd8b1",1.101,59.4
+"Naive T-like","Ctla4",0.149,9.9
+"Naive T-like","Cxcr5",0.051,4.4
+"Naive T-like","Cxcr6",0.032,2.8
+"Naive T-like","Eomes",0.075,6.1
+"Naive T-like","Foxp3",0.003,0.4
+"Naive T-like","Gzmb",0.017,1.3
+"Naive T-like","Gzmk",0.009,0.8
+"Naive T-like","Havcr2",0.004,0.4
+"Naive T-like","Icos",0.4,26.5
+"Naive T-like","Ifng",0.006,0.4
+"Naive T-like","Il2ra",0.016,1.5
+"Naive T-like","Itga1",0.003,0.3
+"Naive T-like","Itgae",0.066,4.9
+"Naive T-like","Lag3",0.007,0.5
+"Naive T-like","Lef1",1.813,86.2
+"Naive T-like","Nkg7",0.812,46.5
+"Naive T-like","Pdcd1",0.008,0.8
+"Naive T-like","Prf1",0.063,5.2
+"Naive T-like","Runx3",0.236,18.3
+"Naive T-like","Sell",0.7,46.1
+"Naive T-like","Tcf7",0.775,48.4
+"Naive T-like","Tigit",0.098,8
+"Naive T-like","Tox",0.395,25.9
+"Naive T-like","Zfp683",0,0
+"Prolif T","Bcl6",0.119,12.3
+"Prolif T","Ccl5",1.158,35.8
+"Prolif T","Ccr7",0.139,10.4
+"Prolif T","Cd3e",2.149,96.4
+"Prolif T","Cd4",0.299,22.7
+"Prolif T","Cd40lg",0.288,22.1
+"Prolif T","Cd69",0.995,63.9
+"Prolif T","Cd8a",0.938,52.2
+"Prolif T","Cd8b1",1.348,59
+"Prolif T","Ctla4",0.712,47.3
+"Prolif T","Cxcr5",0.008,0.5
+"Prolif T","Cxcr6",1.071,70.2
+"Prolif T","Eomes",0.084,7.7
+"Prolif T","Foxp3",0.03,2.7
+"Prolif T","Gzmb",0.948,44
+"Prolif T","Gzmk",0.556,28.7
+"Prolif T","Havcr2",0.479,39.3
+"Prolif T","Icos",1.482,79.5
+"Prolif T","Ifng",0.501,33.9
+"Prolif T","Il2ra",0.69,48.6
+"Prolif T","Itga1",0.258,23.2
+"Prolif T","Itgae",0.465,32.2
+"Prolif T","Lag3",0.199,19.4
+"Prolif T","Lef1",0.235,22.4
+"Prolif T","Nkg7",2.423,85.8
+"Prolif T","Pdcd1",0.55,39.1
+"Prolif T","Prf1",0.093,9.6
+"Prolif T","Runx3",0.598,49.2
+"Prolif T","Sell",0.053,4.6
+"Prolif T","Tcf7",0.122,12.6
+"Prolif T","Tigit",0.471,39.1
+"Prolif T","Tox",0.271,22.1
+"Prolif T","Zfp683",0.035,3.3
+"Teff CD8-like","Bcl6",0.079,5.9
+"Teff CD8-like","Ccl5",3.201,73.7
+"Teff CD8-like","Ccr7",0.119,7.8
+"Teff CD8-like","Cd3e",2.265,95.3
+"Teff CD8-like","Cd4",0.045,2.9
+"Teff CD8-like","Cd40lg",0.077,5.1
+"Teff CD8-like","Cd69",1.083,58.1
+"Teff CD8-like","Cd8a",1.13,62
+"Teff CD8-like","Cd8b1",2.263,89.7
+"Teff CD8-like","Ctla4",0.559,35.1
+"Teff CD8-like","Cxcr5",0.003,0.2
+"Teff CD8-like","Cxcr6",1.474,72.9
+"Teff CD8-like","Eomes",0.065,4.6
+"Teff CD8-like","Foxp3",0.002,0.1
+"Teff CD8-like","Gzmb",1.42,60.6
+"Teff CD8-like","Gzmk",0.991,48.3
+"Teff CD8-like","Havcr2",0.473,29.3
+"Teff CD8-like","Icos",1.887,83.7
+"Teff CD8-like","Ifng",0.323,19.3
+"Teff CD8-like","Il2ra",0.705,40.9
+"Teff CD8-like","Itga1",0.276,19.1
+"Teff CD8-like","Itgae",0.291,17.7
+"Teff CD8-like","Lag3",0.214,15.1
+"Teff CD8-like","Lef1",0.534,34.8
+"Teff CD8-like","Nkg7",2.98,98.4
+"Teff CD8-like","Pdcd1",0.607,34.1
+"Teff CD8-like","Prf1",0.213,15.2
+"Teff CD8-like","Runx3",0.523,35.2
+"Teff CD8-like","Sell",0.033,2.6
+"Teff CD8-like","Tcf7",0.276,18.2
+"Teff CD8-like","Tigit",0.803,47.8
+"Teff CD8-like","Tox",0.118,8.2
+"Teff CD8-like","Zfp683",0.021,1.5
+"Teff/Tem-like CD8","Bcl6",0.221,13.8
+"Teff/Tem-like CD8","Ccl5",4.744,93
+"Teff/Tem-like CD8","Ccr7",0.296,15.1
+"Teff/Tem-like CD8","Cd3e",2.021,86.4
+"Teff/Tem-like CD8","Cd4",0.048,2.8
+"Teff/Tem-like CD8","Cd40lg",0.04,2.4
+"Teff/Tem-like CD8","Cd69",0.934,45.3
+"Teff/Tem-like CD8","Cd8a",1.068,53.8
+"Teff/Tem-like CD8","Cd8b1",1.736,72.6
+"Teff/Tem-like CD8","Ctla4",0.404,22.1
+"Teff/Tem-like CD8","Cxcr5",0.04,2.6
+"Teff/Tem-like CD8","Cxcr6",0.642,33
+"Teff/Tem-like CD8","Eomes",0.315,16.6
+"Teff/Tem-like CD8","Foxp3",0.005,0.2
+"Teff/Tem-like CD8","Gzmb",0.752,31.5
+"Teff/Tem-like CD8","Gzmk",0.888,40.5
+"Teff/Tem-like CD8","Havcr2",0.092,5.3
+"Teff/Tem-like CD8","Icos",0.939,45.5
+"Teff/Tem-like CD8","Ifng",0.178,9.4
+"Teff/Tem-like CD8","Il2ra",0.149,9.2
+"Teff/Tem-like CD8","Itga1",0.19,11.8
+"Teff/Tem-like CD8","Itgae",0.205,11.2
+"Teff/Tem-like CD8","Lag3",0.161,9.8
+"Teff/Tem-like CD8","Lef1",0.372,21.9
+"Teff/Tem-like CD8","Nkg7",2.794,93.9
+"Teff/Tem-like CD8","Pdcd1",0.691,33.9
+"Teff/Tem-like CD8","Prf1",0.16,10.3
+"Teff/Tem-like CD8","Runx3",0.448,26
+"Teff/Tem-like CD8","Sell",0.109,7.4
+"Teff/Tem-like CD8","Tcf7",0.497,28.7
+"Teff/Tem-like CD8","Tigit",0.606,31.9
+"Teff/Tem-like CD8","Tox",0.344,19
+"Teff/Tem-like CD8","Zfp683",0.009,0.7
+"Tfh/Tph-like","Bcl6",0.262,17
+"Tfh/Tph-like","Ccl5",0.176,7.1
+"Tfh/Tph-like","Ccr7",0.21,11.9
+"Tfh/Tph-like","Cd3e",2.218,93.2
+"Tfh/Tph-like","Cd4",1.16,60.9
+"Tfh/Tph-like","Cd40lg",0.857,42.4
+"Tfh/Tph-like","Cd69",1.367,63.6
+"Tfh/Tph-like","Cd8a",0.202,9.9
+"Tfh/Tph-like","Cd8b1",0.262,13
+"Tfh/Tph-like","Ctla4",1.223,58.9
+"Tfh/Tph-like","Cxcr5",0.002,0.2
+"Tfh/Tph-like","Cxcr6",1.747,78.6
+"Tfh/Tph-like","Eomes",0.009,0.8
+"Tfh/Tph-like","Foxp3",0.007,0.6
+"Tfh/Tph-like","Gzmb",0.109,5.6
+"Tfh/Tph-like","Gzmk",0.023,1.7
+"Tfh/Tph-like","Havcr2",0.533,31.2
+"Tfh/Tph-like","Icos",2.077,84.8
+"Tfh/Tph-like","Ifng",0.836,37.6
+"Tfh/Tph-like","Il2ra",1.049,56.5
+"Tfh/Tph-like","Itga1",0.14,9.5
+"Tfh/Tph-like","Itgae",0.469,27.1
+"Tfh/Tph-like","Lag3",0.371,21.8
+"Tfh/Tph-like","Lef1",0.073,5.2
+"Tfh/Tph-like","Nkg7",1.943,74.9
+"Tfh/Tph-like","Pdcd1",1.251,61.2
+"Tfh/Tph-like","Prf1",0.034,2.7
+"Tfh/Tph-like","Runx3",0.555,35
+"Tfh/Tph-like","Sell",0.001,0.1
+"Tfh/Tph-like","Tcf7",0.172,11.8
+"Tfh/Tph-like","Tigit",0.727,40.5
+"Tfh/Tph-like","Tox",0.385,23.4
+"Tfh/Tph-like","Zfp683",0.002,0.2
+"Th17-like","Bcl6",0.14,9.8
+"Th17-like","Ccl5",0.082,4.1
+"Th17-like","Ccr7",0.23,12.6
+"Th17-like","Cd3e",2.072,91.1
+"Th17-like","Cd4",0.366,21.5
+"Th17-like","Cd40lg",0.687,36.7
+"Th17-like","Cd69",1.058,53.6
+"Th17-like","Cd8a",0.312,16.7
+"Th17-like","Cd8b1",0.57,27.9
+"Th17-like","Ctla4",1.118,51.6
+"Th17-like","Cxcr5",0.001,0.2
+"Th17-like","Cxcr6",1.892,82.6
+"Th17-like","Eomes",0,0
+"Th17-like","Foxp3",0.014,1
+"Th17-like","Gzmb",0.076,4
+"Th17-like","Gzmk",0.004,0.3
+"Th17-like","Havcr2",0.343,21.3
+"Th17-like","Icos",2.219,85.6
+"Th17-like","Ifng",0.061,3.5
+"Th17-like","Il2ra",0.708,37
+"Th17-like","Itga1",0.01,0.7
+"Th17-like","Itgae",0.543,31.9
+"Th17-like","Lag3",0.134,9.1
+"Th17-like","Lef1",0.053,3.6
+"Th17-like","Nkg7",0.441,21.7
+"Th17-like","Pdcd1",0.665,35.7
+"Th17-like","Prf1",0.02,1.7
+"Th17-like","Runx3",0.353,24
+"Th17-like","Sell",0.002,0.2
+"Th17-like","Tcf7",0.356,23.3
+"Th17-like","Tigit",0.351,22.3
+"Th17-like","Tox",0.405,24.8
+"Th17-like","Zfp683",0,0
+"Th2-like","Bcl6",0.145,9.7
+"Th2-like","Ccl5",0.238,10.2
+"Th2-like","Ccr7",0.274,14.9
+"Th2-like","Cd3e",1.949,86.7
+"Th2-like","Cd4",0.8,46.8
+"Th2-like","Cd40lg",0.745,42.4
+"Th2-like","Cd69",1.015,53.4
+"Th2-like","Cd8a",0.066,3.8
+"Th2-like","Cd8b1",0.166,8.2
+"Th2-like","Ctla4",0.711,40.1
+"Th2-like","Cxcr5",0.001,0.1
+"Th2-like","Cxcr6",1.321,62.2
+"Th2-like","Eomes",0.003,0.2
+"Th2-like","Foxp3",0.007,0.4
+"Th2-like","Gzmb",0.258,13.6
+"Th2-like","Gzmk",0.029,1.6
+"Th2-like","Havcr2",0.252,16.2
+"Th2-like","Icos",2.188,87
+"Th2-like","Ifng",0.197,11.8
+"Th2-like","Il2ra",0.603,35.2
+"Th2-like","Itga1",0.086,6.1
+"Th2-like","Itgae",0.314,20.1
+"Th2-like","Lag3",0.04,2.8
+"Th2-like","Lef1",0.452,28.5
+"Th2-like","Nkg7",1.541,66.3
+"Th2-like","Pdcd1",0.484,26.2
+"Th2-like","Prf1",0.006,0.5
+"Th2-like","Runx3",0.467,30.5
+"Th2-like","Sell",0.038,2.6
+"Th2-like","Tcf7",0.376,22.7
+"Th2-like","Tigit",0.767,44.2
+"Th2-like","Tox",0.234,14.3
+"Th2-like","Zfp683",0.007,0.5
+"Tregs-like","Bcl6",0.097,6.5
+"Tregs-like","Ccl5",0.261,11.6
+"Tregs-like","Ccr7",0.374,16.9
+"Tregs-like","Cd3e",2.013,87.8
+"Tregs-like","Cd4",0.662,40
+"Tregs-like","Cd40lg",0.11,6.7
+"Tregs-like","Cd69",1.15,56.7
+"Tregs-like","Cd8a",0.065,3.6
+"Tregs-like","Cd8b1",0.181,9.3
+"Tregs-like","Ctla4",2.392,87.9
+"Tregs-like","Cxcr5",0.014,1.3
+"Tregs-like","Cxcr6",0.825,39.1
+"Tregs-like","Eomes",0.003,0.3
+"Tregs-like","Foxp3",0.529,32.6
+"Tregs-like","Gzmb",1.322,46
+"Tregs-like","Gzmk",0.014,1.1
+"Tregs-like","Havcr2",0.497,29.5
+"Tregs-like","Icos",2.577,92.7
+"Tregs-like","Ifng",0.09,5.1
+"Tregs-like","Il2ra",1.6,68.8
+"Tregs-like","Itga1",0.046,3.1
+"Tregs-like","Itgae",1.133,57.5
+"Tregs-like","Lag3",0.404,22
+"Tregs-like","Lef1",0.137,9.7
+"Tregs-like","Nkg7",0.895,37.7
+"Tregs-like","Pdcd1",0.361,20.1
+"Tregs-like","Prf1",0.028,1.8
+"Tregs-like","Runx3",0.297,19.6
+"Tregs-like","Sell",0.087,6.6
+"Tregs-like","Tcf7",0.027,1.9
+"Tregs-like","Tigit",1.462,69.9
+"Tregs-like","Tox",0.714,38.8
+"Tregs-like","Zfp683",0.004,0.3
+"Trm type mixed CD8+ CD4","Bcl6",0.06,3.8
+"Trm type mixed CD8+ CD4","Ccl5",0.322,9.7
+"Trm type mixed CD8+ CD4","Ccr7",0.026,1.9
+"Trm type mixed CD8+ CD4","Cd3e",2.565,92.8
+"Trm type mixed CD8+ CD4","Cd4",0.529,26.9
+"Trm type mixed CD8+ CD4","Cd40lg",0.574,28.9
+"Trm type mixed CD8+ CD4","Cd69",1.339,56.9
+"Trm type mixed CD8+ CD4","Cd8a",0.903,41
+"Trm type mixed CD8+ CD4","Cd8b1",1.301,47.9
+"Trm type mixed CD8+ CD4","Ctla4",0.293,15.9
+"Trm type mixed CD8+ CD4","Cxcr5",0.008,0.5
+"Trm type mixed CD8+ CD4","Cxcr6",1.762,76.2
+"Trm type mixed CD8+ CD4","Eomes",0,0
+"Trm type mixed CD8+ CD4","Foxp3",0.01,0.6
+"Trm type mixed CD8+ CD4","Gzmb",0.404,16.6
+"Trm type mixed CD8+ CD4","Gzmk",0.061,3.2
+"Trm type mixed CD8+ CD4","Havcr2",0.321,19.6
+"Trm type mixed CD8+ CD4","Icos",1.015,50.2
+"Trm type mixed CD8+ CD4","Ifng",0.831,39.3
+"Trm type mixed CD8+ CD4","Il2ra",0.351,20.7
+"Trm type mixed CD8+ CD4","Itga1",0.364,21.5
+"Trm type mixed CD8+ CD4","Itgae",0.843,43.4
+"Trm type mixed CD8+ CD4","Lag3",0.145,8.8
+"Trm type mixed CD8+ CD4","Lef1",0.035,2.4
+"Trm type mixed CD8+ CD4","Nkg7",2.886,91.2
+"Trm type mixed CD8+ CD4","Pdcd1",0.409,22.5
+"Trm type mixed CD8+ CD4","Prf1",0.135,8.5
+"Trm type mixed CD8+ CD4","Runx3",0.51,30.5
+"Trm type mixed CD8+ CD4","Sell",0.004,0.3
+"Trm type mixed CD8+ CD4","Tcf7",0.115,7.3
+"Trm type mixed CD8+ CD4","Tigit",0.202,12.2
+"Trm type mixed CD8+ CD4","Tox",0.17,10.1
+"Trm type mixed CD8+ CD4","Zfp683",0.059,4
+"Trm/Exh-like CD8","Bcl6",0.203,13.4
+"Trm/Exh-like CD8","Ccl5",0.801,23.5
+"Trm/Exh-like CD8","Ccr7",0.176,10.2
+"Trm/Exh-like CD8","Cd3e",2.594,95.7
+"Trm/Exh-like CD8","Cd4",0.178,9
+"Trm/Exh-like CD8","Cd40lg",0.291,17.3
+"Trm/Exh-like CD8","Cd69",1.428,66.9
+"Trm/Exh-like CD8","Cd8a",1.541,73.1
+"Trm/Exh-like CD8","Cd8b1",2.028,80.8
+"Trm/Exh-like CD8","Ctla4",0.664,38.7
+"Trm/Exh-like CD8","Cxcr5",0.005,0.3
+"Trm/Exh-like CD8","Cxcr6",1.499,70.9
+"Trm/Exh-like CD8","Eomes",0.011,1
+"Trm/Exh-like CD8","Foxp3",0.003,0.3
+"Trm/Exh-like CD8","Gzmb",0.898,35.5
+"Trm/Exh-like CD8","Gzmk",0.185,9.9
+"Trm/Exh-like CD8","Havcr2",0.848,45.8
+"Trm/Exh-like CD8","Icos",2.212,86.7
+"Trm/Exh-like CD8","Ifng",0.851,41.8
+"Trm/Exh-like CD8","Il2ra",0.989,53.9
+"Trm/Exh-like CD8","Itga1",0.475,31.4
+"Trm/Exh-like CD8","Itgae",1.31,67.4
+"Trm/Exh-like CD8","Lag3",0.203,13
+"Trm/Exh-like CD8","Lef1",0.065,4
+"Trm/Exh-like CD8","Nkg7",3.02,94.4
+"Trm/Exh-like CD8","Pdcd1",0.962,49.4
+"Trm/Exh-like CD8","Prf1",0.274,19.2
+"Trm/Exh-like CD8","Runx3",0.611,39.4
+"Trm/Exh-like CD8","Sell",0.005,0.5
+"Trm/Exh-like CD8","Tcf7",0.173,11.8
+"Trm/Exh-like CD8","Tigit",0.382,25.1
+"Trm/Exh-like CD8","Tox",0.193,12.6
+"Trm/Exh-like CD8","Zfp683",0.04,3.2

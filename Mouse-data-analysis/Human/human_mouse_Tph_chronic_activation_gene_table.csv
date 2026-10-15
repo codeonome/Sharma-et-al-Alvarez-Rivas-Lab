@@ -1,0 +1,82 @@
+human_gene,mouse_gene,category,specificity_flag,note
+BATF,Batf,cross_species_anchor,high,Core Tph/Tfh TF; direct overlap between C4 and mouse Tph marker lists
+STAT3,Stat3,cross_species_anchor,high,Direct overlap
+RORA,Rora,cross_species_anchor,high,Direct overlap
+JUNB,Junb,cross_species_anchor,high,Direct overlap; also relevant to chronic activation (AP-1)
+ARAP2,Arap2,cross_species_anchor,high,Direct overlap
+DOCK8,Dock8,cross_species_anchor,high,Direct overlap
+ETV6,Etv6,cross_species_anchor,high,Direct overlap
+INPP4B,Inpp4b,cross_species_anchor,high,Direct overlap
+LDLRAD4,Ldlrad4,cross_species_anchor,high,Direct overlap
+NR3C1,Nr3c1,cross_species_anchor,high,Direct overlap
+PTPN13,Ptpn13,cross_species_anchor,high,Direct overlap
+RNF19A,Rnf19a,cross_species_anchor,high,Direct overlap
+TRPS1,Trps1,cross_species_anchor,high,Direct overlap
+TOX2,Tox2,Tph_human_specific,high,Strongest human Tph TF signal
+TOX,Tox,Tph_human_specific,high,Paralog of TOX2; keep distinct in analysis
+TIGIT,Tigit,Tph_human_specific,high,Checkpoint marker
+ICOS,Icos,Tph_human_specific,high,Costimulatory receptor
+MAF,Maf,Tph_human_specific,medium,Confirm c-Maf annotation; distinct from Mafb/Maff/Mafk paralogs
+STAT5B,Stat5b,Tph_human_specific,high,Distinct from Stat5a paralog
+IL6ST,Il6st,Tph_human_specific,high,gp130; shared IL-6/IL-21 signaling subunit
+BACH2,Bach2,Tph_human_specific,high,Transcription factor
+FOXO1,Foxo1,Tph_human_specific,high,Transcription factor
+JUND,Jund,Tph_human_specific,medium,AP-1 family; broadly expressed
+CD247,Cd247,Tph_human_specific,high,TCR complex component
+CD37,Cd37,Tph_human_specific,high,Tetraspanin
+ITK,Itk,Tph_human_specific,low,Generic TCR signaling; low subset specificity
+PTPRJ,Ptprj,Tph_human_specific,high,Phosphatase
+RHOH,Rhoh,Tph_human_specific,medium,
+APBB1IP,Apbb1ip,Tph_human_specific,medium,
+HIVEP1,Hivep1,Tph_human_specific,medium,
+HIVEP2,Hivep2,Tph_human_specific,medium,
+CAMK1D,Camk1d,Tph_human_specific,medium,
+SESN3,Sesn3,Tph_human_specific,medium,
+CD7,Cd7,Tph_human_specific,low,Human/mouse expression regulation known to diverge
+IFNAR2,Ifnar2,Tph_human_specific,low,Broadly expressed interferon receptor; low specificity
+PDCD4,Pdcd4,Tph_human_specific_and_chronic_activation,medium,Translational repressor; exhaustion-adjacent
+CCL1,Ccl1,Tph_mouse_specific,medium,
+TNFSF11,Tnfsf11,Tph_mouse_specific,high,RANKL; direct osteoimmune relevance
+IFNG,Ifng,Tph_mouse_specific,medium,Effector cytokine
+TNFSF8,Tnfsf8,Tph_mouse_specific,medium,CD30L
+CD40LG,Cd40lg,Tph_mouse_specific,high,B cell help
+PDCD1,Pdcd1,Tph_mouse_specific,high,PD-1; resolves human bulk PD-1 discrepancy
+PDCD1LG2,Pdcd1lg2,Tph_mouse_specific,medium,
+CXCR6,Cxcr6,Tph_mouse_specific,high,
+IL21R,Il21r,Tph_mouse_specific,high,
+TNFRSF4,Tnfrsf4,Tph_mouse_specific,medium,OX40
+CD44,Cd44,Tph_mouse_specific,low,Memory marker; broadly expressed, low subset specificity
+THY1,Thy1,Tph_mouse_specific,low,Pan-T-cell marker in mouse (CD90); low specificity
+ITGB2,Itgb2,Tph_mouse_specific,medium,
+ID2,Id2,Tph_mouse_specific,medium,
+KLRC1,Klrc1,Tph_mouse_specific,medium,
+KLRK1,Klrk1,Tph_mouse_specific,medium,NKG2D
+CD5,Cd5,Tph_mouse_specific,medium,
+CD6,Cd6,Tph_mouse_specific,medium,
+ZAP70,Zap70,Tph_mouse_specific,low,Generic TCR signaling; low subset specificity
+LCP2,Lcp2,Tph_mouse_specific,low,Generic TCR signaling; low subset specificity
+THEMIS,Themis,Tph_mouse_specific,low,Generic TCR/thymic signaling; low subset specificity
+IL2RB,Il2rb,Tph_mouse_specific,medium,
+RUNX2,Runx2,Tph_mouse_specific,medium,Also master osteoblast TF; footnote recommended given bone-biology context
+FAS,Fas,Tph_mouse_specific,medium,
+HIF1A,Hif1a,Tph_mouse_specific,medium,
+IL18RAP,Il18rap,Tph_mouse_specific,medium,
+NFKB1,Nfkb1,chronic_activation,high,Also matches human PD bulk pseudobulk finding
+REL,Rel,chronic_activation,high,Also matches human PD bulk pseudobulk finding
+TRAF1,Traf1,chronic_activation,medium,
+TNFAIP3,Tnfaip3,chronic_activation,high,Negative-feedback brake on NF-kB; implies sustained upstream signaling
+NFKBIA,Nfkbia,chronic_activation,medium,IkB family negative feedback
+NFKBIB,Nfkbib,chronic_activation,medium,IkB family negative feedback
+NFKBID,Nfkbid,chronic_activation,medium,IkB family negative feedback
+NFKBIZ,Nfkbiz,chronic_activation,medium,IkB family negative feedback
+FOSB,Fosb,chronic_activation,medium,Immediate-early gene
+FOSL2,Fosl2,chronic_activation,medium,Immediate-early gene
+NR4A1,Nr4a1,chronic_activation,high,TCR-signal-strength/chronicity reporter
+NR4A3,Nr4a3,chronic_activation,high,Same family as NR4A1
+ATF3,Atf3,chronic_activation,medium,Stress/activation-induced
+SOCS1,Socs1,chronic_activation,medium,Cytokine signaling brake
+CISH,Cish,chronic_activation,medium,Same family as SOCS1
+CFLAR,Cflar,chronic_activation,medium,Apoptosis regulator, co-induced with chronic activation
+FKBP5,Fkbp5,chronic_activation,medium,Stress/glucocorticoid-responsive
+GLCCI1,Glcci1,chronic_activation,medium,Glucocorticoid-induced
+DUSP16,Dusp16,chronic_activation,medium,MAPK negative feedback

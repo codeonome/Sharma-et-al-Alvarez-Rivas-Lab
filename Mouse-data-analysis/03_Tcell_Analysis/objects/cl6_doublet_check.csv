@@ -1,0 +1,11 @@
+"celltype_merged","n","n_doublet","pct_doublet","median_score"
+"Trm/Exh-like CD8",625,51,8.2,0.03
+"Prolif T",366,27,7.4,0.044
+"Teff CD8-like",2081,126,6.1,0.017
+"Tfh/Tph-like",1045,49,4.7,0.017
+"Th17-like",605,28,4.6,0.025
+"Th2-like",1460,60,4.1,0.017
+"Tregs-like",1015,34,3.3,0.02
+"Teff/Tem-like CD8",457,9,2,0.014
+"Naive T-like",789,15,1.9,0.012
+"Trm type mixed CD8+ CD4",781,9,1.2,0.014

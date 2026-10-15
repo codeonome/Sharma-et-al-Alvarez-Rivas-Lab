@@ -1,0 +1,9 @@
+"condition","mait_label","n","total_cl7","pct"
+"BAS","Innate-like (MAIT/NKT-like)",1,50,2
+"BAS","Th17 (conventional)",49,50,98
+"PD","Innate-like (MAIT/NKT-like)",7,119,5.9
+"PD","Th17 (conventional)",112,119,94.1
+"REC","Innate-like (MAIT/NKT-like)",7,210,3.3
+"REC","Th17 (conventional)",203,210,96.7
+"RCU","Innate-like (MAIT/NKT-like)",12,253,4.7
+"RCU","Th17 (conventional)",241,253,95.3

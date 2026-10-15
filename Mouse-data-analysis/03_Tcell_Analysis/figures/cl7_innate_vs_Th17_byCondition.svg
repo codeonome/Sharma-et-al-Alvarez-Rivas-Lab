@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='432.00pt' height='360.00pt' viewBox='0 0 432.00 360.00'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw0MzIuMDB8MC4wMHwzNjAuMDA='>
+    <rect x='0.00' y='0.00' width='432.00' height='360.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw0MzIuMDB8MC4wMHwzNjAuMDA=)'>
+<rect x='-0.000000000000032' y='0.00' width='432.00' height='360.00' style='stroke-width: 1.26; stroke: #FFFFFF; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpNTQuMTd8MjUxLjEyfDI3LjQwfDMyMi43OQ=='>
+    <rect x='54.17' y='27.40' width='196.95' height='295.38' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNTQuMTd8MjUxLjEyfDI3LjQwfDMyMi43OQ==)'>
+<rect x='54.17' y='27.40' width='196.95' height='295.38' style='stroke-width: 1.26; stroke: none; fill: #FFFFFF;' />
+<rect x='67.06' y='33.19' width='30.48' height='5.79' style='stroke-width: 1.26; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D73027;' />
+<rect x='67.06' y='38.99' width='30.48' height='283.80' style='stroke-width: 1.26; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #4E79A7;' />
+<rect x='113.95' y='33.19' width='30.48' height='17.03' style='stroke-width: 1.26; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D73027;' />
+<rect x='113.95' y='50.23' width='30.48' height='272.56' style='stroke-width: 1.26; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #4E79A7;' />
+<rect x='160.85' y='33.19' width='30.48' height='9.65' style='stroke-width: 1.26; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D73027;' />
+<rect x='160.85' y='42.85' width='30.48' height='279.94' style='stroke-width: 1.26; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #4E79A7;' />
+<rect x='207.74' y='33.19' width='30.48' height='13.74' style='stroke-width: 1.26; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D73027;' />
+<rect x='207.74' y='46.93' width='30.48' height='275.86' style='stroke-width: 1.26; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #4E79A7;' />
+</g>
+<g clip-path='url(#cpMC4wMHw0MzIuMDB8MC4wMHwzNjAuMDA=)'>
+<polyline points='54.17,322.79 54.17,27.40 ' style='stroke-width: 1.26; stroke-linecap: square;' />
+<text x='48.34' y='326.51' text-anchor='end' style='font-size: 10.40px; font-family: "Arial";' textLength='15.02px' lengthAdjust='spacingAndGlyphs'>0%</text>
+<text x='48.34' y='254.11' text-anchor='end' style='font-size: 10.40px; font-family: "Arial";' textLength='20.80px' lengthAdjust='spacingAndGlyphs'>25%</text>
+<text x='48.34' y='181.71' text-anchor='end' style='font-size: 10.40px; font-family: "Arial";' textLength='20.80px' lengthAdjust='spacingAndGlyphs'>50%</text>
+<text x='48.34' y='109.31' text-anchor='end' style='font-size: 10.40px; font-family: "Arial";' textLength='20.80px' lengthAdjust='spacingAndGlyphs'>75%</text>
+<text x='48.34' y='36.91' text-anchor='end' style='font-size: 10.40px; font-family: "Arial";' textLength='26.58px' lengthAdjust='spacingAndGlyphs'>100%</text>
+<polyline points='50.93,322.79 54.17,322.79 ' style='stroke-width: 1.26; stroke-linecap: butt;' />
+<polyline points='50.93,250.39 54.17,250.39 ' style='stroke-width: 1.26; stroke-linecap: butt;' />
+<polyline points='50.93,177.99 54.17,177.99 ' style='stroke-width: 1.26; stroke-linecap: butt;' />
+<polyline points='50.93,105.59 54.17,105.59 ' style='stroke-width: 1.26; stroke-linecap: butt;' />
+<polyline points='50.93,33.19 54.17,33.19 ' style='stroke-width: 1.26; stroke-linecap: butt;' />
+<polyline points='54.17,322.79 251.12,322.79 ' style='stroke-width: 1.26; stroke-linecap: square;' />
+<polyline points='82.30,326.02 82.30,322.79 ' style='stroke-width: 1.26; stroke-linecap: butt;' />
+<polyline points='129.19,326.02 129.19,322.79 ' style='stroke-width: 1.26; stroke-linecap: butt;' />
+<polyline points='176.09,326.02 176.09,322.79 ' style='stroke-width: 1.26; stroke-linecap: butt;' />
+<polyline points='222.98,326.02 222.98,322.79 ' style='stroke-width: 1.26; stroke-linecap: butt;' />
+<text x='82.30' y='336.05' text-anchor='middle' style='font-size: 10.40px; font-family: "Arial";' textLength='20.81px' lengthAdjust='spacingAndGlyphs'>BAS</text>
+<text x='129.19' y='336.05' text-anchor='middle' style='font-size: 10.40px; font-family: "Arial";' textLength='14.44px' lengthAdjust='spacingAndGlyphs'>PD</text>
+<text x='176.09' y='336.05' text-anchor='middle' style='font-size: 10.40px; font-family: "Arial";' textLength='21.94px' lengthAdjust='spacingAndGlyphs'>REC</text>
+<text x='222.98' y='336.05' text-anchor='middle' style='font-size: 10.40px; font-family: "Arial";' textLength='22.50px' lengthAdjust='spacingAndGlyphs'>RCU</text>
+<text x='152.64' y='350.79' text-anchor='middle' style='font-size: 13.00px; font-family: "Arial";' textLength='54.95px' lengthAdjust='spacingAndGlyphs'>Condition</text>
+<text transform='translate(15.79,175.09) rotate(-90)' text-anchor='middle' style='font-size: 13.00px; font-family: "Arial";' textLength='156.83px' lengthAdjust='spacingAndGlyphs'>Proportion of cluster 7 cells</text>
+<rect x='264.07' y='151.34' width='161.46' height='47.51' style='stroke-width: 1.26; stroke: none; fill: #FFFFFF;' />
+<rect x='270.54' y='157.81' width='17.28' height='17.28' style='stroke-width: 1.26; stroke: none; fill: #FFFFFF;' />
+<rect x='271.38' y='158.65' width='15.60' height='15.60' style='stroke-width: 1.26; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #D73027;' />
+<rect x='270.54' y='175.09' width='17.28' height='17.28' style='stroke-width: 1.26; stroke: none; fill: #FFFFFF;' />
+<rect x='271.38' y='175.93' width='15.60' height='15.60' style='stroke-width: 1.26; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #4E79A7;' />
+<text x='294.30' y='170.17' style='font-size: 10.40px; font-family: "Arial";' textLength='124.75px' lengthAdjust='spacingAndGlyphs'>Innate-like (MAIT/NKT-like)</text>
+<text x='294.30' y='187.45' style='font-size: 10.40px; font-family: "Arial";' textLength='91.88px' lengthAdjust='spacingAndGlyphs'>Th17 (conventional)</text>
+<text x='54.17' y='17.64' style='font-size: 15.60px; font-family: "Arial";' textLength='293.52px' lengthAdjust='spacingAndGlyphs'>Cluster 7: Innate-like vs Th17 by Condition</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,684 @@
+"Package","Version","LibPath","Priority","Built","Repository","RemoteType","RemoteSha"
+"abind","1.4-8","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"admisc","0.39","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"affy","1.88.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"affyio","1.80.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"akima","0.6-3.6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"annotate","1.88.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"AnnotationDbi","1.72.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"AnnotationFilter","1.34.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"AnnotationHub","4.0.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"ape","5.8-1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"apeglm","1.32.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","https://bioc-release.r-universe.dev",NA,"8940580cf6d16ff3688f62caf44efab3a0ba8395"
+"aplot","0.2.9","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"arrow","22.0.0.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN","standard","22.0.0.1"
+"ashr","2.2-63","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","2.2-63"
+"askpass","1.2.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"assertthat","0.2.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"assorthead","1.4.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"babelgene","22.9","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","22.9"
+"babelwhale","1.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"backports","1.5.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"base","4.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","base","4.5.1",NA,NA,NA
+"base64enc","0.1-3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"batchelor","1.26.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"bbmle","1.0.25.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"bdsmatrix","1.3-7","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"beachmat","2.26.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"beanplot","1.3.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"beeswarm","0.4.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"BH","1.90.0-1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"biglm","0.9-3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"Biobase","2.70.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"BiocBaseUtils","1.12.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"BiocFileCache","3.0.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"BiocGenerics","0.56.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"BiocIO","1.20.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"BiocManager","1.30.27","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"BiocNeighbors","2.4.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"BiocParallel","1.44.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"BiocSingular","1.26.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"BiocVersion","3.22.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","Bioconductor 3.22",NA,NA
+"biocViews","1.78.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"Biostrings","2.78.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"biovizBase","1.58.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"bit","4.6.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"bit64","4.6.0-1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"bitops","1.0-9","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"blob","1.2.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"bluster","1.20.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"boot","1.3-32","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","recommended","4.5.0","CRAN",NA,NA
+"brew","1.0-10","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"brio","1.1.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"broom","1.0.11","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"BSgenome","1.78.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"BSgenome.Mmusculus.UCSC.mm10","1.4.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1",NA,NA,NA
+"bslib","0.9.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"cachem","1.1.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"Cairo","1.7-0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"calibrate","1.7.7","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"callr","3.7.6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"car","3.1-3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"carData","3.0-5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"caret","7.0-1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"carrier","0.3.0.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"caTools","1.18.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"CellChat","1.6.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0",NA,"github","e4f68625b074247d619c2e488d33970cc531e17c"
+"cellranger","1.1.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"checkmate","2.3.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ChemmineR","3.62.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"chorddiag","0.1.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0",NA,"github","1688d72cd93071abb373e054190363bdfb3af2af"
+"cigarillo","1.0.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"circlize","0.4.17","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"class","7.3-23","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","recommended","4.5.1","CRAN",NA,NA
+"classInt","0.4-11","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"cli","3.6.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"clipr","0.8.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"clock","0.7.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"clue","0.3-66","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"cluster","2.1.8.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","recommended","4.5.1","CRAN",NA,NA
+"clusterProfiler","4.18.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","Bioconductor 3.22",NA,NA
+"clustree","0.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","0.5.1"
+"coda","0.19-4.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"codetools","0.2-20","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","recommended","4.5.1","CRAN",NA,NA
+"colorspace","2.1-2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"combinat","0.0-8","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"commonmark","2.0.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"compiler","4.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","base","4.5.1",NA,NA,NA
+"ComplexHeatmap","2.26.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"CompoundDb","1.14.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"concaveman","1.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"config","0.3.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"conflicted","1.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"corpcor","1.6.10","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"corrplot","0.95","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"covr","3.6.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"cowplot","1.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"cpp11","0.5.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"crayon","1.5.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"credentials","2.0.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"crmn","0.0.21","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"crosstalk","1.2.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"cubature","2.1.4-1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"curl","7.0.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"cytomapper","1.22.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"data.table","1.18.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"data.tree","1.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"datasets","4.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","base","4.5.1",NA,NA,NA
+"DBI","1.2.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"dbplyr","2.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"DDRTree","0.1.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"DelayedArray","0.36.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"DelayedMatrixStats","1.32.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"deldir","2.0-4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"dendextend","1.19.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"DEoptimR","1.1-4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","1.1-4"
+"Deriv","4.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"desc","1.4.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"DESeq2","1.50.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","https://bioc-release.r-universe.dev",NA,"d90821a3153a27b2a6b727df7188ea7a5b8929fd"
+"devtools","2.4.6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"diagram","1.6.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"dichromat","2.0-0.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"diffobj","0.3.6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"digest","0.6.39","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"distances","0.1.13","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"doBy","4.7.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"doParallel","1.0.17","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"DOSE","4.4.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"dotCall64","1.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"dotty","0.1.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"downlit","0.4.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","CRAN",NA,NA
+"dplyr","1.1.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"dqrng","0.4.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"DT","0.34.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"dtplyr","1.3.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"dunn.test","1.3.6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"dyndimred","1.0.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"dynfeature","1.0.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0",NA,"github","b6fa729b1bc531e179aec3f3d7aa14cd8ef2015e"
+"dynguidelines","1.0.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0",NA,"github","57f2da74b28eb7a88a16de11e4c3290e6af9b950"
+"dynmethods","1.0.5.9000","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0",NA,"github","90b6208c10bb9a4bf601bdcb3f5fb48f995244b8"
+"dyno","0.1.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0",NA,"github","c46102325bbfb50a8126da3c70086d05b9f13aad"
+"dynparam","1.0.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"dynplot","1.1.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0",NA,"github","d64b25cd58ec9f3c801e5842c90c8ff25e1512ba"
+"dynutils","1.0.12","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"dynwrap","1.2.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"e1071","1.7-17","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"EBImage","4.52.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"edgeR","4.8.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","https://bioc-release.r-universe.dev",NA,"af0343acbb3998d2d2bb3e3d259bbee17a2c8a7e"
+"ellipsis","0.3.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"emdbook","1.3.14","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"enrichplot","1.30.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"enrichR","3.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","3.4"
+"EnsDb.Mmusculus.v79","2.99.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1",NA,NA,NA
+"ensembldb","2.34.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"etrunct","0.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","0.1"
+"evaluate","1.0.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"evd","2.3-7.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"evmix","2.12","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"expm","1.0-0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"fansi","1.0.7","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"farver","2.1.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"fastcluster","1.3.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"fastDummies","1.7.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"fastICA","1.2-7","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"fastmap","1.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"fastmatch","1.1-6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"fftwtools","0.9-11","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"fgsea","1.36.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","https://bioc-release.r-universe.dev",NA,"b7862b78985f52670a13ca46abacb7831e33d5e1"
+"filelock","1.0.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"fitdistrplus","1.2-4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"FlexParamCurve","1.5-7","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"FNN","1.1.4.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"fontawesome","0.5.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"fontBitstreamVera","0.1.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"fontLiberation","0.1.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"fontquiver","0.2.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"forcats","1.0.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"foreach","1.5.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"forecast","9.0.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"foreign","0.8-90","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","recommended","4.5.1","CRAN",NA,NA
+"formatR","1.14","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"Formula","1.2-5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"fracdiff","1.5-3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"fs","1.6.6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"FSA","0.10.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"furrr","0.3.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"futile.logger","1.4.9","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"futile.options","1.0.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"future","1.68.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","CRAN",NA,NA
+"future.apply","1.20.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"GA","3.2.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"gargle","1.6.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"gdtools","0.4.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"genefilter","1.92.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"generics","0.1.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"GenomeInfoDb","1.46.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","Bioconductor 3.22",NA,NA
+"GenomeInfoDbData","1.2.15","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1",NA,NA,NA
+"GenomicAlignments","1.46.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"GenomicFeatures","1.62.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"GenomicRanges","1.62.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","Bioconductor 3.22",NA,NA
+"GEOquery","2.78.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"gert","2.3.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"GetoptLong","1.1.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"ggalluvial","0.12.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ggbeeswarm","0.7.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"ggdendro","0.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ggforce","0.5.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ggformula","1.0.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ggfun","0.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ggiraph","0.9.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ggnetwork","0.5.14","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ggnewscale","0.5.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ggplot2","4.0.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"ggplot2movies","0.0.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ggplotify","0.1.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ggpubr","0.6.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ggraph","2.2.2.9000","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1",NA,"github","6c4ce81e460c50a16f9cd97e0b3a089f36901316"
+"ggrastr","1.0.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ggrepel","0.9.6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ggridges","0.5.7","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ggsci","4.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"ggseqlogo","0.2.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN","standard","0.2.2"
+"ggsignif","0.6.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ggtangle","0.1.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"ggtree","4.0.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","Bioconductor 3.22",NA,NA
+"ggVennDiagram","1.5.7","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"gh","1.5.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"gitcreds","0.1.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"glasso","1.11","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"glmGamPoi","1.22.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"glmnet","4.1-10","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"GlobalAncova","4.28.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"GlobalOptions","0.1.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"globals","0.18.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"glue","1.8.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"GO.db","3.22.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1",NA,NA,NA
+"goftest","1.2-3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"googledrive","2.1.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"googlesheets4","1.1.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"GOSemSim","2.36.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"gower","1.0.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"gplots","3.3.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"graph","1.88.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","Bioconductor 3.22",NA,NA
+"graphics","4.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","base","4.5.1",NA,NA,NA
+"graphlayouts","1.2.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"grDevices","4.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","base","4.5.1",NA,NA,NA
+"grid","4.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","base","4.5.1",NA,NA,NA
+"gridBase","0.4-7","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"gridExtra","2.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"gridGraphics","0.5-1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"grr","0.9.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"GSEABase","1.72.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"gsl","2.1-9","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"gson","0.1.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"gtable","0.3.6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"gtools","3.9.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"h5mread","1.2.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","Bioconductor 3.22",NA,NA
+"hardhat","1.4.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"harmony","1.2.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","1.2.4"
+"hash","2.2.6.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"haven","2.5.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"HDF5Array","1.38.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"hdf5r","1.3.12","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"here","1.0.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"hexbin","1.28.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"hfun","0.0.0.9000","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1",NA,"github","1c6b80eb4a0fd0dafbafc385df54a0dd3cbaa192"
+"highr","0.11","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"Hmisc","5.2-5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"hms","1.1.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"hoardr","0.5.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"HSMMSingleCell","1.30.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"htmlTable","2.4.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"htmltools","0.5.9","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"htmlwidgets","1.6.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"httpuv","1.6.16","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"httr","1.4.7","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"httr2","1.2.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"ica","1.0-3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ids","1.0.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"igraph","2.2.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"imcRtools","1.16.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"immApex","1.4.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","Bioconductor 3.22",NA,NA
+"impute","1.84.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"iNEXT","3.0.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ini","0.3.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"invgamma","1.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","1.2"
+"ipred","0.9-15","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"IRanges","2.44.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"irlba","2.3.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"isoband","0.3.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"iterators","1.0.14","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"jose","1.2.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","1.2.1"
+"jpeg","0.1-11","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"jquerylib","0.1.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"jsonlite","2.0.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"KEGGgraph","1.70.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"KEGGREST","1.50.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"keras3","1.5.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"kernlab","0.9-33","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","0.9-33"
+"KernSmooth","2.23-26","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","recommended","4.5.1","CRAN",NA,NA
+"knitr","1.51","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"labeling","0.4.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"labelled","2.16.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"lambda.r","1.2.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"later","1.4.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"lattice","0.22-7","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","recommended","4.5.1","CRAN",NA,NA
+"lava","1.8.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"lazyeval","0.2.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"leidenbase","0.1.36","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"lifecycle","1.0.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"limma","3.66.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"listenv","0.10.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"lmds","0.1.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"lme4","1.1-38","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"lmtest","0.9-40","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"lobstr","1.1.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","CRAN",NA,NA
+"locfit","1.5-9.12","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"logging","0.10-108","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","0.10-108"
+"lsa","0.73.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN","standard","0.73.4"
+"lubridate","1.9.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"magick","2.9.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"magrittr","2.0.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"mailR","0.8","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"MALDIquant","1.22.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"mapproj","1.2.12","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"maps","3.4.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"MASS","7.3-65","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","recommended","4.5.1","CRAN",NA,NA
+"MAST","1.36.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"mathjaxr","2.0-0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN","standard","2.0-0"
+"Matrix","1.7-4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","recommended","4.5.0","CRAN",NA,NA
+"MatrixGenerics","1.22.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"MatrixModels","0.5-4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"matrixStats","1.5.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"mclust","6.1.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","6.1.2"
+"memoise","2.0.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"MetaboAnnotation","1.14.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"MetaboCoreUtils","1.18.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","Bioconductor 3.22",NA,NA
+"metafetcher","0.0.0.9000","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1",NA,"github","2e125498e49c8e31202eeb6c9be0c94fde24b74a"
+"MetaNeighbor","1.29.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"metap","1.13","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN","standard","1.13"
+"metapod","1.18.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"MetBrewer","0.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"methods","4.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","base","4.5.1",NA,NA,NA
+"mgcv","1.9-4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","recommended","4.5.0","CRAN",NA,NA
+"microbenchmark","1.5.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"mime","0.13","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"miniUI","0.1.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"minqa","1.2.8","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"mixsqp","0.3-54","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","0.3-54"
+"mixtools","2.0.0.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","2.0.0.1"
+"mnormt","2.1.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","2.1.1"
+"ModelMetrics","1.2.2.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"modelr","0.1.11","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"mosaic","1.9.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"mosaicCore","0.9.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"mosaicData","0.20.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"MsCoreUtils","1.22.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"msigdbr","26.1.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN","standard","26.1.0"
+"MSnbase","2.36.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"multcomp","1.4-29","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"MultiAssayExperiment","1.36.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","Bioconductor 3.22",NA,NA
+"MultiDataSet","1.38.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"multtest","2.66.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"munsell","0.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"mutoss","0.1-14","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN","standard","0.1-14"
+"mvtnorm","1.3-3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"mzID","1.48.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"mzR","2.44.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"ncdf4","1.24","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"network","1.19.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"networkD3","0.4.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"nlme","3.1-168","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","recommended","4.5.1","CRAN",NA,NA
+"nloptr","2.2.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"NMF","0.28","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"nnet","7.3-20","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","recommended","4.5.1","CRAN",NA,NA
+"nnls","1.6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"numDeriv","2016.8-1.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"openssl","2.3.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"openxlsx","4.2.8.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"org.Hs.eg.db","3.22.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1",NA,NA,NA
+"org.Mm.eg.db","3.22.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1",NA,NA,NA
+"otel","0.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"packrat","0.9.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","CRAN","standard","0.9.3"
+"pacman","0.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"parallel","4.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","base","4.5.1",NA,NA,NA
+"parallelly","1.46.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"patchwork","1.3.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"pbapply","1.7-4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"pbkrtest","0.5.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"pbmcapply","1.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"pcaMethods","2.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"pheatmap","1.0.13","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","1.0.13"
+"pillar","1.11.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"pkgbuild","1.4.8","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"pkgconfig","2.0.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"pkgdown","2.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"pkgload","1.4.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"PKI","0.1-15","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","0.1-15"
+"plogr","0.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"plotly","4.11.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"plotrix","3.8-13","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","CRAN",NA,NA
+"plyr","1.8.9","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"png","0.1-8","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"Polychrome","1.5.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"polyclip","1.10-7","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"polynom","1.4-1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"pool","1.0.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"praise","1.0.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"preprocessCore","1.72.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"presto","1.0.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0",NA,"github","7636b3d0465c468c35853f82f1717d3a64b3c8f6"
+"prettyunits","1.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"princurve","2.1.6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"pROC","1.19.0.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"processx","3.8.6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"prodlim","2025.04.28","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"profvis","0.4.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"progress","1.2.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"progressr","0.18.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"promises","1.5.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ProtGenerics","1.42.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"proxy","0.4-29","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"proxyC","0.5.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ps","1.9.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"pscl","1.5.9","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"PSMatch","1.14.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"purrr","1.2.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"QFeatures","1.20.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"qqconf","1.3.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","1.3.2"
+"qqman","0.1.9","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"qs","0.27.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"quadprog","1.5-8","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"quantmod","0.4.28","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"quantreg","6.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"quarto","1.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"qvalue","2.42.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"R.methodsS3","1.8.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"R.oo","1.27.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"R.utils","2.13.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"R6","2.6.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ragg","1.5.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ranger","0.17.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"RANN","2.6.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"RApiSerialize","0.1.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"rappdirs","0.3.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"raster","3.6-32","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"RBGL","1.86.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"rbibutils","2.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"rcmdcheck","1.4.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"RColorBrewer","1.1-3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"Rcpp","1.1.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"RcppAnnoy","0.0.22","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"RcppArmadillo","15.2.3-1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"RcppEigen","0.3.4.0.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"RcppHNSW","0.6.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"RcppML","0.3.7.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"RcppNumerical","0.7-0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"RcppParallel","5.1.11-1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"RcppProgress","0.4.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"RcppRoll","0.3.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"RcppTOML","0.2.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"RCurl","1.98-1.17","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"Rdpack","2.6.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"readr","2.1.6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","CRAN",NA,NA
+"readxl","1.4.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"recipes","1.3.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"redux","1.1.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"reformulas","0.4.3.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"registry","0.5-1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"rematch","2.0.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"rematch2","2.1.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"remotes","2.5.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","2.5.0"
+"rentrez","1.2.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"renv","1.1.7","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN","standard","1.1.7"
+"reprex","2.1.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"reshape2","1.4.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ResidualMatrix","1.20.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"restfulr","0.0.16","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"reticulate","1.44.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","CRAN",NA,NA
+"rex","1.2.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"Rfast","2.1.5.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","2.1.5.2"
+"Rfast2","0.1.5.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","0.1.5.5"
+"Rgraphviz","2.54.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"rGREAT","2.12.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","https://bioc-release.r-universe.dev",NA,"5383df5c6ade4fb471bbbb62a5fd26cff246735d"
+"rhdf5","2.54.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","Bioconductor 3.22",NA,NA
+"rhdf5filters","1.22.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"Rhdf5lib","1.32.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"RhpcBLASctl","0.23-42","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"Rhtslib","3.6.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"rJava","1.0-11","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"RJDBC","0.2-10","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"rjson","0.2.23","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"rlang","1.1.7","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"rlist","0.4.6.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"rmarkdown","2.30","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"Rnanoflann","0.0.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","0.0.3"
+"rngtools","1.5.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"robustbase","0.99-6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","0.99-6"
+"ROCR","1.0-11","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ropls","1.42.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"roxygen2","7.3.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"rpart","4.1.24","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","recommended","4.5.1","CRAN",NA,NA
+"RPostgres","1.4.8","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"RPostgreSQL","0.7-8","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"rprojroot","2.1.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"rsample","1.3.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"Rsamtools","2.26.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"rsconnect","1.7.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","CRAN","standard","1.7.0"
+"Rserve","1.8-16","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"RSpectra","0.16-2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"RSQLite","2.4.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"rstatix","0.7.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"rstudioapi","0.17.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"rsvd","1.0.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"rsvg","2.7.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"rtracklayer","1.70.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","https://bioc-release.r-universe.dev",NA,"873c7111e8befb0e5761618280100a4de0cc5f3e"
+"RTriangle","1.6-0.15","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"Rtsne","0.17","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"RUnit","0.4.33.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"rversions","3.0.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"rvest","1.0.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"s2","1.1.9","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"S4Arrays","1.10.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"S4Vectors","0.48.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"S7","0.2.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","CRAN",NA,NA
+"sandwich","3.1-1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"sass","0.4.10","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"ScaledMatrix","1.18.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"scales","1.4.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"scater","1.38.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"scattermore","1.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"scatterpie","0.2.6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"scatterplot3d","0.3-44","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"scDblFinder","1.24.10","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","https://bioc-release.r-universe.dev",NA,"9d37a5cafc27aa820e8f9e28972306ef77a277b7"
+"scGate","1.7.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"scran","1.38.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"scRepertoire","2.6.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","Bioconductor 3.22",NA,NA
+"scrime","1.3.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"sctransform","0.4.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"scuttle","1.20.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"segmented","2.1-4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","2.1-4"
+"selectr","0.5-1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"Seqinfo","1.0.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"sessioninfo","1.2.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"sets","1.0-25","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"Seurat","5.4.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN","standard","5.4.0"
+"SeuratExtend","1.2.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0",NA,"github","e228f70b5b621198fb7e19a1f40d3ec6df94f1b8"
+"SeuratExtendData","0.3.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0",NA,"github","6859c9a1986ab568add7139d03797d2f69cbffc7"
+"SeuratObject","5.3.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN","standard","5.3.0"
+"sf","1.0-23","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"shape","1.4.6.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"shiny","1.12.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"shinydashboard","0.7.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"shinyjs","2.1.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"shinyWidgets","0.9.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"siggenes","1.84.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"Signac","1.16.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1",NA,"github","f5a84118508d2f0d6b04bd7fd28ad7f3576de461"
+"SingleCellExperiment","1.32.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"sitmo","2.0.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"slam","0.1-55","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"slider","0.3.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","CRAN",NA,NA
+"slingshot","2.18.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"sn","2.1.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","2.1.1"
+"sna","2.8","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"snow","0.4-4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"SnowballC","0.7.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","0.7.1"
+"snowflakeauth","0.2.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN","standard","0.2.1"
+"sourcetools","0.1.7-1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"sp","2.2-0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"spam","2.11-3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"SparseArray","1.10.8","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","Bioconductor 3.22",NA,NA
+"SparseM","1.84-2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"sparseMatrixStats","1.22.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"sparsevctrs","0.3.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"spatial","7.3-18","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","recommended","4.5.1","CRAN",NA,NA
+"SpatialExperiment","1.20.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"spatstat.data","3.1-9","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"spatstat.explore","3.6-0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"spatstat.geom","3.6-1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"spatstat.random","3.4-3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"spatstat.sparse","3.1-0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"spatstat.univar","3.1-5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","CRAN",NA,NA
+"spatstat.utils","3.2-1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"spData","2.3.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"spdep","1.4-1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"speckle","1.10.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.3","https://bioc-release.r-universe.dev",NA,"71ee725de49638127364be19b0fc898e489b8253"
+"Spectra","1.20.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","https://bioc-release.r-universe.dev",NA,"fa473077b3bd100437e43995754a969ed6a4e49a"
+"speedglm","0.3-5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"splines","4.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","base","4.5.1",NA,NA,NA
+"SQUAREM","2021.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"statmod","1.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"statnet.common","4.13.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"stats","4.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","base","4.5.1",NA,NA,NA
+"stats4","4.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","base","4.5.1",NA,NA,NA
+"storr","1.2.6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"stringdist","0.9.15","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"stringfish","0.17.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"stringi","1.8.7","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"stringr","1.6.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"SummarizedExperiment","1.40.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"survival","3.8-3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","recommended","4.5.1","CRAN",NA,NA
+"sva","3.58.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"svglite","2.2.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","2.2.2"
+"svgPanZoom","0.3.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"sys","3.4.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"systemfonts","1.3.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"tcltk","4.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","base","4.5.1",NA,NA,NA
+"tensor","1.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"tensorflow","2.20.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"terra","1.8-86","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"testthat","3.3.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"textshaping","1.0.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"tfautograph","0.3.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"TFisher","0.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","0.2.0"
+"tfruns","1.5.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"TH.data","1.1-5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"tibble","3.3.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"tidydr","0.0.6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"tidygraph","1.3.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"tidyr","1.3.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"tidyselect","1.2.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"tidytree","0.4.7","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"tidyverse","2.0.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"tiff","0.1-12","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"timechange","0.3.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"timeDate","4051.111","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"tinytex","0.58","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"tislingshot","2.0.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0",NA,"github","65248ecae4dbfa0b41a0c802fbe1f764ee5ce7a3"
+"tools","4.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","base","4.5.1",NA,NA,NA
+"TrajectoryUtils","1.18.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"treeio","1.34.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"truncdist","1.0-2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"truncnorm","1.0-9","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","1.0-9"
+"tseries","0.10-59","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"TTR","0.24.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"tweenr","2.0.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"TxDb.Hsapiens.UCSC.hg19.knownGene","3.22.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1",NA,NA,NA
+"TxDb.Hsapiens.UCSC.hg38.knownGene","3.22.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1",NA,NA,NA
+"TxDb.Mmusculus.UCSC.mm10.knownGene","3.10.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1",NA,NA,NA
+"tzdb","0.5.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"UCell","2.14.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"UCSC.utils","1.6.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","Bioconductor 3.22",NA,NA
+"units","1.0-0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"UpSetR","1.4.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","1.4.0"
+"urca","1.3-4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"urlchecker","1.0.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"usethis","3.2.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"utf8","1.2.6","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"utils","4.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library","base","4.5.1",NA,NA,NA
+"uuid","1.2-1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"uwot","0.2.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"V8","8.0.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"VariantAnnotation","1.56.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"vctrs","0.6.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"vdiffr","1.0.8","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"venn","1.12","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"VennDiagram","1.8.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"VGAM","1.1-14","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"vipor","0.4.7","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"viridis","0.6.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"viridisLite","0.4.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"vroom","1.6.7","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"vsn","3.78.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"waldo","0.6.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"warp","0.2.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","CRAN",NA,NA
+"webchem","1.3.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1",NA,"github","9a1ae40748ee439889598be5906bb1f45a1c6f1f"
+"whisker","0.4.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"withr","3.0.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"wk","0.9.5","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"writexl","1.5.4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"WriteXLS","6.8.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","6.8.0"
+"wrswoR","1.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","1.2.0"
+"xfun","0.55","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"xgboost","3.2.1.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"XML","3.99-0.20","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"xml2","1.5.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"xopen","1.0.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"xtable","1.8-4","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"xts","0.14.1","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"XVector","0.50.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.1","Bioconductor 3.22",NA,NA
+"yaml","2.3.12","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"yulab.utils","0.2.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA
+"zeallot","0.2.0","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"zigg","0.0.2","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN","standard","0.0.2"
+"zip","2.3.3","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.0","CRAN",NA,NA
+"zoo","1.8-15","/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library",NA,"4.5.2","CRAN",NA,NA

@@ -1,0 +1,17 @@
+"species","set","variant","spearman_rho"
+"human","ANCHOR","full",0.879
+"human","ANCHOR","strict",0.883
+"human","CHRONIC","full",0.899
+"human","CHRONIC","strict",0.899
+"human","TPH_HUMAN","full",0.849
+"human","TPH_HUMAN","strict",0.861
+"human","TPH_MOUSE","full",0.873
+"human","TPH_MOUSE","strict",0.888
+"mouse","ANCHOR","full",0.946
+"mouse","ANCHOR","strict",0.944
+"mouse","CHRONIC","full",0.957
+"mouse","CHRONIC","strict",0.959
+"mouse","TPH_HUMAN","full",0.892
+"mouse","TPH_HUMAN","strict",0.899
+"mouse","TPH_MOUSE","full",0.933
+"mouse","TPH_MOUSE","strict",0.937

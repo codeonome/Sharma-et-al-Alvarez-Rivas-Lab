@@ -1,0 +1,17 @@
+"sample_id","condition","celltype","n_cells"
+"REC_1","REC","Tfh/Tph-like",282
+"REC_2","REC","Tfh/Tph-like",34
+"RCU_1","RCU","Tfh/Tph-like",45
+"RCU_2","RCU","Tfh/Tph-like",17
+"REC_1","REC","Th17-like",24
+"REC_2","REC","Th17-like",15
+"RCU_1","RCU","Th17-like",78
+"RCU_2","RCU","Th17-like",3
+"REC_1","REC","Th2-like",12
+"REC_2","REC","Th2-like",4
+"RCU_1","RCU","Th2-like",12
+"RCU_2","RCU","Th2-like",7
+"REC_1","REC","Tregs-like",78
+"REC_2","REC","Tregs-like",5
+"RCU_1","RCU","Tregs-like",59
+"RCU_2","RCU","Tregs-like",3

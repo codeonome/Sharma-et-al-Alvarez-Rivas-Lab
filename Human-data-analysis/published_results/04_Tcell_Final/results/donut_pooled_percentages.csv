@@ -1,0 +1,19 @@
+"condition","display_code","cluster_id","n_cells","pct_pooled"
+"Control","C1","CD8 TEM (GZMK/GZMH)",2910,31.93
+"Control","C2","CD4 naive/CM",2306,25.3
+"Control","C3","CD8 TEM (ZEB2-hi)",803,8.81
+"Control","C4","Th17",696,7.64
+"Control","C5","Treg",511,5.61
+"Control","C6","CD4 resting/CM (TSHZ2+)",535,5.87
+"Control","C7","CD8 cytotoxic (GZMB/GNLY)",560,6.15
+"Control","C8","MAIT",535,5.87
+"Control","C9","CD4 Tph-like (CXCL13+)",257,2.82
+"PD","C1","CD8 TEM (GZMK/GZMH)",3824,32.71
+"PD","C2","CD4 naive/CM",2378,20.34
+"PD","C3","CD8 TEM (ZEB2-hi)",1421,12.16
+"PD","C4","Th17",823,7.04
+"PD","C5","Treg",866,7.41
+"PD","C6","CD4 resting/CM (TSHZ2+)",814,6.96
+"PD","C7","CD8 cytotoxic (GZMB/GNLY)",594,5.08
+"PD","C8","MAIT",353,3.02
+"PD","C9","CD4 Tph-like (CXCL13+)",616,5.27

@@ -1,0 +1,17 @@
+"sample_id","condition","celltype","n_cells","n_beta_genes"
+"REC_1","REC","Tfh/Tph-like",282,57
+"REC_2","REC","Tfh/Tph-like",34,14
+"RCU_1","RCU","Tfh/Tph-like",45,19
+"RCU_2","RCU","Tfh/Tph-like",17,6
+"REC_1","REC","Th17-like",24,13
+"REC_2","REC","Th17-like",15,5
+"RCU_1","RCU","Th17-like",78,20
+"RCU_2","RCU","Th17-like",3,2
+"REC_1","REC","Th2-like",12,8
+"REC_2","REC","Th2-like",4,3
+"RCU_1","RCU","Th2-like",12,8
+"RCU_2","RCU","Th2-like",7,4
+"REC_1","REC","Tregs-like",78,33
+"REC_2","REC","Tregs-like",5,3
+"RCU_1","RCU","Tregs-like",59,22
+"RCU_2","RCU","Tregs-like",3,2

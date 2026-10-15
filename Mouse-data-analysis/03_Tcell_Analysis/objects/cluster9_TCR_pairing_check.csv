@@ -1,0 +1,5 @@
+"TCR_Status","Freq","Percentage","Cluster"
+"Paired (TRA+TRB)",17,3.28,"9"
+"Single chain (TRA or TRB)",5,0.96,"9"
+"γδ (TRG/TRD)",0,0,"9"
+"No TCR",497,95.76,"9"

@@ -1,0 +1,3 @@
+"sub_cluster","mean_Tbx21","mean_Batf","silhouette","best_res","split_called","cond_a_peaks_differ","cond_b_2x_enriched","cond_c_mutually_excl"
+"0",0.3755,1.0195,0.324,"0.2",FALSE,FALSE,FALSE,FALSE
+"1",0.1686,0.9116,0.324,"0.2",FALSE,FALSE,FALSE,FALSE

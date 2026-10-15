@@ -1,0 +1,4 @@
+"test","statistic","df","p"
+"depth (log10 UMI)",2275,1,0
+"condition",211.3,3,1.54362687636522e-45
+"depth × condition interaction",74.13,3,5.55937510995102e-16

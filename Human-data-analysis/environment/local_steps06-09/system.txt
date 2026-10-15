@@ -1,0 +1,22 @@
+Label:    Local workstation - steps 06-09 (cleanup, DA, figures, pseudobulk DE) 
+Captured: 2026-10-15 12:20 EDT 
+Host:     dhcp-10-83-139-65.wireless.buffalo.edu | OS: Darwin 24.6.0 | machine: arm64 
+ProductName:		macOS
+ProductVersion:		15.7.4
+BuildVersion:		24G517
+CPU:      Apple M4 Pro 
+R:        R version 4.5.1 (2025-06-13) 
+R_HOME:   /Library/Frameworks/R.framework/Resources 
+BLAS:     /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRblas.0.dylib 
+LAPACK:   /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib 
+RNGkind:  Mersenne-Twister / Inversion / Rejection 
+Library paths:
+  /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library
+Scripts scanned:
+  06_tcell_cleanup_annotation.R
+  07_differential_abundance.R
+  08_figures.R
+  09_pseudobulk_de.R
+  helpers.R
+Packages called directly: dplyr, edgeR, ggplot2, ggrepel, limma, Matrix, scales, Seurat, SeuratObject, speckle, tibble, tidyr, viridisLite 
+NOT INSTALLED here: none 

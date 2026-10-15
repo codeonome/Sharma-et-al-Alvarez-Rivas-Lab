@@ -1,0 +1,6 @@
+"Measure","Value"
+"Unique genes in REC, n",90
+"Unique genes in RCU, n",60
+"Shared genes (intersection), n",25
+"Total unique genes (union), n",125
+"Jaccard similarity coefficient",0.2

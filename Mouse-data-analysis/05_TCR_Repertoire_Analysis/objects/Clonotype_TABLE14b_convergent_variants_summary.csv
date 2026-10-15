@@ -1,0 +1,25 @@
+"variant_id","condition","celltype","n_cells"
+"V1","PD","Tfh/Tph-like",1
+"V1","REC","Tfh/Tph-like",4
+"V1","REC","Trm type mixed CD8+ CD4",3
+"V1","RCU","Tfh/Tph-like",3
+"V1","RCU","Th2-like",1
+"V2","BAS","Tfh/Tph-like",2
+"V2","PD","Tregs-like",2
+"V2","PD","Teff CD8-like",1
+"V2","PD","Tfh/Tph-like",1
+"V2","PD","Th2-like",1
+"V2","REC","Tfh/Tph-like",2
+"V2","REC","Tregs-like",1
+"V2","RCU","Tfh/Tph-like",3
+"V2","RCU","Trm type mixed CD8+ CD4",2
+"V3","PD","Tfh/Tph-like",5
+"V3","PD","Th2-like",3
+"V3","PD","Prolif T",1
+"V3","PD","Tregs-like",1
+"V3","PD","Trm type mixed CD8+ CD4",1
+"V3","REC","Trm type mixed CD8+ CD4",2
+"V3","REC","Tfh/Tph-like",1
+"V3","REC","Th2-like",1
+"V3","RCU","Trm type mixed CD8+ CD4",3
+"V3","RCU","Tfh/Tph-like",2

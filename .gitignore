@@ -1,0 +1,16 @@
+# Large data objects (deposited separately)
+*.rds
+*.RDS
+*.h5
+*.h5ad
+*.h5seurat
+
+# Pipeline outputs
+Human-data-analysis/output/
+
+# R / OS / editor clutter
+.Rhistory
+.RData
+.Rproj.user/
+Rplots.pdf
+.DS_Store

@@ -1,0 +1,5 @@
+"condition","n_cells","n_recovered","detection_rate","median_depth","median_depth_recov","median_depth_drop"
+"BAS",1024,406,39.65,1855.5,2234,1588.5
+"PD",5377,3965,73.74,3049,3404,2076.5
+"REC",4901,3049,62.21,2753,3150,2106.5
+"RCU",3228,1832,56.75,2459,2834.5,2029.5

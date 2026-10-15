@@ -1,0 +1,4 @@
+"comparison","auroc_one_vs_rest","rank_from_human","auroc_one_vs_best","role"
+"C9 <-> mouse Tfh/Tph-like",0.661,5,0.428,"test"
+"C2 <-> Naive T-like",0.739,1,NA,"positive control"
+"C4 <-> Th17-like",0.808,2,0.618,"positive control"

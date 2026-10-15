@@ -1,0 +1,10 @@
+"display_code","cluster","n_GM","n_PD","genes_tested","rho","fit_path","n_sig","n_sig_up_PD","n_sig_up_GM"
+"C1","C1 (CD8 TEM (GZMK/GZMH))",13,7,6069,0.708,"voomLmFit",1101,426,675
+"C2","C2 (CD4 naive/CM)",13,8,5585,0.696,"voomLmFit",815,296,519
+"C3","C3 (CD8 TEM (ZEB2-hi))",10,7,2183,0.669,"voomLmFit",83,39,44
+"C7","C7 (CD8 cytotoxic (GZMB/GNLY))",9,7,2346,0.599,"voomLmFit",76,34,42
+"C5","C5 (Treg)",9,6,2754,0.801,"voomLmFit",67,33,34
+"C4","C4 (Th17)",8,8,3042,0.545,"voomLmFit",63,34,29
+"C9","C9 (CD4 Tph-like (CXCL13+))",4,6,3389,0.62,"voomLmFit",43,26,17
+"C6","C6 (CD4 resting/CM (TSHZ2+))",7,7,1789,0.487,"voomLmFit",24,16,8
+"C8","C8 (MAIT)",5,6,1796,0.449,"voomLmFit",0,0,0

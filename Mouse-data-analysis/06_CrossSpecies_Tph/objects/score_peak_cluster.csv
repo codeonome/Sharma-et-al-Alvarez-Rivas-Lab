@@ -1,0 +1,9 @@
+"species","set","cluster","m"
+"human","ANCHOR","C9",0.799734580584495
+"human","CHRONIC","C8",0.214199961749438
+"human","TPH_HUMAN","C9",0.33987083083328
+"human","TPH_MOUSE","C3",0.0653589420389767
+"mouse","ANCHOR","Tfh/Tph-like",0.206535946375197
+"mouse","CHRONIC","Tfh/Tph-like",0.189386725357942
+"mouse","TPH_HUMAN","Tregs-like",0.0739787410247051
+"mouse","TPH_MOUSE","Tfh/Tph-like",0.278084470019213

@@ -1,0 +1,39 @@
+FlexiBLAS, version 3.0.4
+Copyright (C) 2014, 2015, 2016, 2017, 2018, 2019, 2020 Martin Koehler and others.
+This is free software; see the source code for copying conditions.
+There is ABSOLUTELY NO WARRANTY; not even for MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.
+
+
+Configured BLAS libraries:
+System-wide (/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/Compiler/gcc/11.2.0/flexiblas/3.0.4/etc/flexiblasrc):
+
+System-wide from config directory (/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/Compiler/gcc/11.2.0/flexiblas/3.0.4/etc/flexiblasrc.d/)
+ NETLIB
+   library = libflexiblas_netlib.so
+   comment = 
+ OPENBLAS
+   library = libflexiblas_openblas.so
+   comment = 
+ BLIS
+   library = libflexiblas_blis.so
+   comment = 
+
+User config (/user/as587/.flexiblasrc):
+
+Host config (/user/as587/.flexiblasrc.login2.cbls.ccr.buffalo.edu):
+
+Available hooks:
+  PROFILE (/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/Compiler/gcc/11.2.0/flexiblas/3.0.4/lib/flexiblas//libflexiblas_hook_profile.so)
+  DUMMY (/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/Compiler/gcc/11.2.0/flexiblas/3.0.4/lib/flexiblas//libflexiblas_hook_dummy.so)
+
+Backend and hook search paths:
+  /cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/Compiler/gcc/11.2.0/flexiblas/3.0.4/lib/flexiblas/
+
+Default BLAS:
+    System:       OPENBLAS
+    User:         (none)
+    Host:         (none)
+    Active Default: OPENBLAS (System)
+Runtime properties:
+   verbose = 0 (System) 
