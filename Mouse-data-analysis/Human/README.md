@@ -1,6 +1,6 @@
 # Human — reanalysis of GSE164241 (input to Module 06)
 
-Human gingival T cells from the public scRNA-seq dataset GSE164241 (Williams et al., 2021; healthy gingival mucosa vs periodontitis), used in Module 06 for the cross-species and B-helper comparisons. This folder holds the **inputs** Module 06 reads and the script that produced the final human object. The upstream human pipeline is not part of this repository.
+Human gingival T cells from the public scRNA-seq dataset GSE164241 (Williams et al., 2021; healthy gingival mucosa vs periodontitis), used in Module 06 for the cross-species and B-helper comparisons. This folder holds the **inputs** Module 06 reads and the script that produced the final human object. The full human pipeline that produces these files is in [`../../Human-data-analysis`](../../Human-data-analysis) (steps 00–09, verified against the published results).
 
 ## Files
 | File | Role | In git |

@@ -1,6 +1,6 @@
 # Single-cell RNA and TCR sequencing of gingival T cells in recurrent periodontitis
 
-Analysis code for Sharma et al. (2026), *[title — to be added]*. Gingival immune cells from the Sensitized Recurrent Periodontitis (SeRPD) mouse model were profiled by 10x Genomics 5′ single-cell RNA-seq with paired V(D)J sequencing at four phases: baseline (BAS), periodontitis (PD), recovery (REC) and recurrence (RCU), two independent sample pools per phase. A public human gingival dataset (GSE164241) is used for cross-species comparison.
+Analysis code for Sharma et al. (2026), *Clonally Convergent Tph/Tfh-like CD4+ T Cells are Shared Across Recovery and Recurrence in Experimental Periodontitis*. Gingival immune cells from the Sensitized Recurrent Periodontitis (SeRPD) mouse model were profiled by 10x Genomics 5′ single-cell RNA-seq with paired V(D)J sequencing at four phases: baseline (BAS), periodontitis (PD), recovery (REC) and recurrence (RCU), two independent sample pools per phase. A public human gingival dataset (GSE164241) is used for cross-species comparison.
 
 ## Repository layout
 
@@ -46,7 +46,7 @@ Figures 1–3 (human IMC and scRNA-seq differential abundance, flow cytometry an
 
 ## Data
 
-Two input objects are required; both are deposited at Zenodo **[DOI]** (raw sequencing data: GEO **[accession]**).
+Two input objects are required; both are deposited at Zenodo **[DOI]** (raw sequencing data: GEO [GSE350875](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350875)).
 
 | File | Place it in | Description |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Sharma et al. — Alvarez-Rivas Lab
 
-Analysis code for Sharma et al., *[title — to be added]*: single-cell RNA and TCR sequencing of gingival T cells in periodontitis, in mouse and human.
+Analysis code for Sharma et al., *Clonally Convergent Tph/Tfh-like CD4+ T Cells are Shared Across Recovery and Recurrence in Experimental Periodontitis*: single-cell RNA and TCR sequencing of gingival T cells in periodontitis, in mouse and human.
 
 | Folder | Contents |
 |---|---|
@@ -14,8 +14,8 @@ Each folder has its own README describing:
 
 ## Data
 - **Raw sequencing data:**
-  - Mouse: *[GEO accession — to be added]*
-  - Human: GSE164241 (Williams et al., 2021)
+  - Mouse: [GSE350875](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350875)
+  - Human: [GSE164241](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164241) (Williams et al., 2021)
 - **Seurat objects:** not stored in git because of their size; deposited separately *[Zenodo DOI — to be added]*.
 
 ## Cross-species link
