@@ -14,7 +14,7 @@ Paper modules run in numeric order; each reads only the outputs of earlier modul
 ├── 04_Tcell_Expansion_Analysis/   # clonotype size and clonal expansion
 ├── 05_TCR_Repertoire_Analysis/    # TCRβ V–J usage, β-gene prevalence/Jaccard, shared/convergent clonotypes, TCR dropout
 ├── 06_CrossSpecies_Tph/           # mouse Tfh/Tph-like vs human Tph-like (C9): B-helper module + cross-species tests
-├── Human/                         # GSE164241 reanalysis: final object (input to 06), marker table, gene table, provenance script
+├── Human/                         # human inputs to module 06 (made by ../Human-data-analysis): final object, marker table, gene table
 ├── run_all.sh                     # runs everything in dependency order
 ├── renv.lock                      # exact R + package versions
 └── README.md
@@ -41,8 +41,11 @@ Every module folder has the same structure: `scripts/` (code), `objects/` (table
 | Fig. S4 | A–B | 03 · `figures/heatmap_TCRab.svg`, `violin_markers_stacked.svg` |
 | | C | 03 · `figures/cl2_Tph_featureplot.svg` |
 | | D | 03 · `figures/Supp_MixedTrm_annotation.svg` |
+| Supp. Table 2 | — | 05 · `objects/TABLE5_jaccard_by_celltype.csv` (per-CD4-cluster Jaccard, REC vs RCU) |
+| Supp. Table 3 | — | 05 · *[to be confirmed]* |
+| Supp. Table 4 | — | 05 · *[to be confirmed]* |
 
-Figures 1–3 (human IMC and scRNA-seq differential abundance, flow cytometry and micro-CT) are not produced by this repository; the human cluster annotation used in Figure 1 is documented in `Human/`.
+Figure 1C–G and Supplementary Table 1 (human scRNA-seq) are produced by [`../Human-data-analysis`](../Human-data-analysis). Figure 1A–B (imaging mass cytometry), Figures 2–3 and Supplementary Figure 1 (flow cytometry, micro-CT, qPCR, TRAP, adoptive transfer) were analysed in GraphPad Prism / FlowJo / QuPath and are not produced by code in this repository. Figures 4A and 6A are schematics.
 
 ## Data
 

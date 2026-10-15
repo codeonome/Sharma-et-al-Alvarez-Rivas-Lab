@@ -1,154 +1,121 @@
-# T-cell analysis of human gingiva in periodontitis — reproducible pipeline
+# Human gingival T cells in periodontitis — GSE164241 reanalysis
 
-This is a reanalysis of **GSE164241**: single-cell RNA-seq of human gingiva, 21 biopsies from 18 donors (13 healthy, GM; 8 periodontitis, PD). It starts from the integrated object and ends with nine T-cell populations (C1–C9), their differential abundance between PD and GM, and pseudobulk differential expression.
+Code for the human single-cell analyses in **Sharma et al., *Clonally Convergent Tph/Tfh-like CD4⁺ T Cells are Shared Across Recovery and Recurrence in Experimental Periodontitis*** (Figure 1C–G, Supplementary Table 1, and the human panels of Figure 7).
 
-This folder holds the clean, step-wise analysis code (`scripts/`, `R/`, `config.R`) and, in [`published_results/`](published_results/), the tables and figures reported in the manuscript. **Every published table and cluster assignment is regenerated exactly by this pipeline** (see [Verification](#verification)).
+The data are public scRNA-seq of human gingiva ([GSE164241](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164241); Williams et al., 2021): 21 biopsies from 18 donors, 13 healthy (GM) and 8 periodontitis (PD). Two donors gave repeat biopsies: PD164 (3) and PD161 (2). The pipeline goes from the integrated object to nine T-cell clusters (C1–C9). It then tests their differential abundance between PD and GM and runs pseudobulk differential expression.
 
-## Manuscript result
-> **Human periodontitis is characterized by gingival enrichment of antigen-experienced and tissue-adapted CD4⁺ T cells**
->
-> To examine the transcriptomic landscape of antigen-experienced CD4⁺ T cells in GM and PD, we analyzed a publicly available scRNA-seq dataset comprising 13 GM and 8 PD samples. In this, 2 of 18 donors contributed multiple biopsies (donor PD164, three samples; donor PD161, two samples) (GSE164241; Williams et al., 2021). We focused on the T cell compartment by performing sequential unsupervised clustering of immune cells (upon eliminating innate and other contaminants) and identifying T cells by the expression of canonical T cell markers.
->
-> Nine transcriptionally distinct clusters were identified among all T cells (C1–C9), displaying similar dominance in GM and PD.
->
-> Five clusters were identified as CD4 lineage (C2, C4, C5, C6 and C9), three as CD8 lineage (C1, C3 and C7) and one as MAIT (C8).
-
-### Figure panels → pipeline outputs
-| Panel | Content | Figure (`output/figures/`) | Data behind it (`output/results/`) |
+## Figures and tables → code
+| Manuscript item | Content | Script | Output (`output/…`) |
 |---|---|---|---|
-| C | T-cell UMAP, all subjects; density in GM and PD | `08_figures/umap_tcell_final.svg`, `08_figures/umap_density_by_condition.svg` | `objects/06_tcell_final.rds` (`umap.tcell`, `cluster_code`) |
-| D | Grouped marker dot plot (CD8 · MAIT · CD4) | `08_figures/dotplot_grouped.svg` | `objects/06_tcell_final.rds` |
-| E | Cluster composition, GM and PD (pooled cells) | `08_figures/donut_GM.svg`, `donut_PD.svg` | `08_figures/donut_pooled_percentages.csv` |
-| F | Pseudobulk DE, PD vs GM, all T cells; TOX2, BCL6, CXCR5, CXCL13 highlighted | `09_pseudobulk_de/DE_volcano_PD_vs_GM_allTcells.svg` | `09_pseudobulk_de/DE_PD_vs_GM_allTcells.csv` |
-| G | Differential abundance: odds ratio (95% CI), FDR; donor-blocked propeller | `08_figures/DA_bar_blocked.svg` | `07_differential_abundance/DA_propeller_donor_blocked.csv`, `08_figures/DA_bar_blocked_values.csv` |
+| **Fig. 1C** | T-cell UMAP, all subjects; density in GM and PD | `08_figures.R` | `figures/08_figures/umap_tcell_final.svg`, `umap_density_by_condition.svg` |
+| **Fig. 1D** | Grouped marker dot plot (CD8 · MAIT · CD4) | `08_figures.R` | `figures/08_figures/dotplot_grouped.svg` |
+| **Fig. 1E** | Cluster composition, GM and PD (pooled cells) | `08_figures.R` | `figures/08_figures/donut_GM.svg`, `donut_PD.svg`; `results/08_figures/donut_pooled_percentages.csv` |
+| **Fig. 1F** | Pseudobulk DE, PD vs GM, all T cells; TOX2, BCL6, CXCR5 and CXCL13 highlighted | `09_pseudobulk_de.R` | `figures/09_pseudobulk_de/DE_volcano_PD_vs_GM_allTcells.svg`; `results/09_pseudobulk_de/DE_PD_vs_GM_allTcells.csv` |
+| **Fig. 1G** | Differential abundance: odds ratio (95% CI) and FDR, donor-blocked propeller | `07_differential_abundance.R`, `08_figures.R` | `figures/08_figures/DA_bar_blocked.svg`; `results/07_differential_abundance/DA_propeller_donor_blocked.csv` |
+| **Supp. Table 1** | DA for all clusters: donor-blocked (primary), sample-level and donor-level models | `07_differential_abundance.R` | `results/07_differential_abundance/DA_propeller_donor_blocked.csv`, `DA_all_tests_wide.csv` (assembled as `published_results/04_Tcell_Final/results/Propeller_DA_results.xlsx`) |
+| **Fig. 7A–C** (human) | B-helper module in human T-cell clusters | `../Mouse-data-analysis/06_CrossSpecies_Tph` | inputs: `objects/06_tcell_final.rds`, `results/04_tcell_reclustering/tcell_subset_markers.csv` |
 
-Key numbers, regenerated exactly by the pipeline:
+Figure 1A–B (imaging mass cytometry) is not produced by code in this repository.
 
-| | C1 | C2 | C3 | C4 | C5 | C6 | C7 | C8 | C9 |
-|---|---|---|---|---|---|---|---|---|---|
-| % of T cells, GM | 31.9 | 25.3 | 8.8 | 7.6 | 5.6 | 5.9 | 6.1 | 5.9 | 2.8 |
-| % of T cells, PD | 32.7 | 20.3 | 12.2 | 7.0 | 7.4 | 7.0 | 5.1 | 3.0 | 5.3 |
-| Odds ratio PD vs GM | 0.83 | 0.79 | 1.23 | 1.42 | 1.27 | 1.18 | 0.83 | 0.99 | **2.26** |
-| FDR (donor-blocked propeller) | 0.54 | 0.54 | 0.54 | 0.54 | 0.54 | 0.59 | 0.54 | 0.98 | **0.064** (p = 0.0071) |
+### Cluster names
+The manuscript uses functional names. The code and the tables use marker-based labels (`cluster_id`). Both refer to the same clusters, identified by the code C1–C9.
 
-The within-donor correlation is ρ = 0.726 (DA) and ρ = 0.29 (pooled DE). Pooled DE gives 616 genes with |log2FC| > 1 at FDR < 0.05 (247 up in PD, 369 up in GM). TOX2, BCL6, CXCR5 and CXCL13 are all up in PD (FDR 0.001–0.03).
+| Code | Manuscript (Fig. 1) | Label in code and tables | Lineage |
+|---|---|---|---|
+| C1 | effector/cytotoxic-like | CD8 TEM (GZMK/GZMH) | CD8 |
+| C2 | naive/central memory-like | CD4 naive/CM | CD4 |
+| C3 | resting/effector-memory-like | CD8 TEM (ZEB2-hi) | CD8 |
+| C4 | Th17/Treg-like | Th17 | CD4 |
+| C5 | Treg-like | Treg | CD4 |
+| C6 | activated/memory-like | CD4 resting/CM (TSHZ2+) | CD4 |
+| C7 | terminally differentiated effector-like | CD8 cytotoxic (GZMB/GNLY) | CD8 |
+| C8 | MAIT | MAIT | MAIT |
+| C9 | Tfh/Tph-like | CD4 Tph-like (CXCL13+) | CD4 |
 
 ## Steps
-
-| Step | Script | What it does | Runs on |
-|---|---|---|---|
-| 00 | `00_integration.R` | Per-sample QC, merge, CCA + Harmony integration, annotation (10x, scType, CloudAzimuth). *Author: Tyler Chinsky* | CCR |
-| 01 | `01_qc_integrated_object.R` | Sanity checks on the integrated object | CCR |
-| 02 | `02_global_clustering.R` | Resolution sweep on the Harmony embedding; res 0.1 = 12 clusters | CCR |
-| 03 | `03_immune_subset.R` | Immune clusters → re-integration → 13 immune clusters → T cells (immune clusters 0, 1) | CCR |
-| 04 | `04_tcell_reclustering.R` | T cells re-integrated and reclustered; res 0.4 = 11 clusters | CCR |
-| 05 | `05_tcell_validation.R` | Validation of clusters 3 (Treg/Th17), 8 (Tph/Tfh), 9 (QC) | CCR |
-| 06 | `06_tcell_cleanup_annotation.R` | Removes Ig-high doublets and cluster 9, merges 10 into 0, labels C1–C9 | local |
-| 07 | `07_differential_abundance.R` | Composition; Wilcoxon and propeller tests; **primary: donor-blocked propeller**; leave-one-donor-out; ρ sensitivity | local |
-| 08 | `08_figures.R` | UMAPs, density, donuts, DA figure, proportions, dot plot, ρ sensitivity | local |
-| 09 | `09_pseudobulk_de.R` | Pseudobulk DE, PD vs GM: all T cells and each cluster C1–C9 | local |
+| Step | Script | What it does | Feeds | Runs on |
+|---|---|---|---|---|
+| 00 | `00_integration.R` | Per-sample QC (200–6,000 genes, < 20% mitochondrial), merge, CCA and Harmony integration, annotation | — | CCR |
+| 01 | `01_qc_integrated_object.R` | Sanity checks on the integrated object | — | CCR |
+| 02 | `02_global_clustering.R` | Resolution sweep on the Harmony embedding; res 0.1 = 12 clusters | — | CCR |
+| 03 | `03_immune_subset.R` | Immune clusters re-integrated and reclustered (res 0.2, 13 clusters); T cells = immune clusters 0 and 1 | — | CCR |
+| 04 | `04_tcell_reclustering.R` | T cells re-integrated and reclustered; res 0.4 = 11 clusters; markers | Fig. 7 (markers) | CCR |
+| 05 | `05_tcell_validation.R` | Validation of clusters 3 (Treg/Th17), 8 (Tph/Tfh) and 9 (QC) | — | CCR |
+| 06 | `06_tcell_cleanup_annotation.R` | Removes Ig-high doublets and cluster 9, merges 10 into 0, labels C1–C9 | Fig. 1, 7 | local |
+| 07 | `07_differential_abundance.R` | Composition; Wilcoxon and propeller tests; **primary: donor-blocked propeller**; leave-one-donor-out; ρ sensitivity | Fig. 1G, Supp. Table 1 | local |
+| 08 | `08_figures.R` | Figure 1 panels C, D, E and G, plus supporting plots | Fig. 1C–E, G | local |
+| 09 | `09_pseudobulk_de.R` | Pseudobulk DE, PD vs GM: all T cells and each cluster C1–C9 | Fig. 1F | local |
 
 Cell numbers: 110,166 integrated cells → 48,346 immune cells → 21,899 T cells → 20,802 T cells in C1–C9.
 
-| Code | Population | Code | Population |
-|---|---|---|---|
-| C1 | CD8 TEM (GZMK/GZMH) | C6 | CD4 resting/CM (TSHZ2+) |
-| C2 | CD4 naive/CM | C7 | CD8 cytotoxic (GZMB/GNLY) |
-| C3 | CD8 TEM (ZEB2-hi) | C8 | MAIT |
-| C4 | Th17 | C9 | CD4 Tph-like (CXCL13+) |
-| C5 | Treg | | |
+Step 00 was written and run by Tyler Chinsky. The deposited integrated object is the verified starting point for steps 01–09.
 
-## Layout
+## Methods summary
+- **Integration:**
+  - Normalisation, 2,000 variable genes and PCA.
+  - Harmony with sample as the batch; each biopsy is its own batch.
+  - Clustering on the Harmony embedding (30 dims), global res 0.1.
+- **Immune and T-cell subclustering:**
+  - The immune clusters, and then the T cells, are each re-normalised, re-integrated with Harmony and reclustered: immune with 20 dims at res 0.2, T cells with 15 dims at res 0.4.
+- **Cleanup:**
+  - Cells with more than 10% of counts from immunoglobulin genes are removed as T/plasma doublets.
+  - Cluster 9 is removed: it is dominated by ribosomal genes and has no lineage markers.
+  - Cluster 10 is merged into cluster 0.
+- **Differential abundance:**
+  - Model: `speckle::propeller` on logit-transformed per-sample proportions, fitted at sample level with donor as a blocking factor (`limma::duplicateCorrelation`, consensus ρ = 0.726), with robust empirical Bayes.
+  - Sample-level and donor-level models and Wilcoxon tests are reported for concordance.
+- **Differential expression:**
+  - Counts are summed per sample (samples with fewer than 20 cells are dropped), then `filterByExpr` and TMM.
+  - Model: `edgeR::voomLmFit` with sample quality weights and donor blocking, then `eBayes(robust = TRUE)`.
+  - 10,796 genes are tested in the all-T-cell analysis.
+
+## Folder layout
 ```
-pipeline/
+Human-data-analysis/
 ├── config.R            all paths and parameters (the only file to edit)
 ├── R/helpers.R         shared functions (plotting, markers, DA models)
 ├── scripts/00-09_*.R   one script per step
-├── run/                SLURM job for steps 00-05 (CCR), shell script for 06-09
-├── verify/             comparison of outputs against the published results
-├── environment/        R/package versions for both environments + renv.lock
-├── published_results/  published tables + figures (modules 01–05), the verification reference
-└── output/             (created by the run; git-ignored)
-    ├── objects/        Seurat objects passed between steps
-    ├── results/<step>/ tables
-    ├── figures/<step>/ figures
-    └── logs/           per-step logs and sessionInfo
+├── run/                SLURM job for steps 00-05 (CCR), shell script for 06-09, verification job
+├── environment/        R and package versions for both environments, renv.lock
+├── verify/             comparison of outputs with the published results, and its reports
+├── published_results/  tables and figures as published (the verification reference)
+└── output/             created by a run (git-ignored): objects/, results/<step>/, figures/<step>/, logs/
 ```
 
 ## How to run
-Every script is run from this folder and reads `config.R`. The output location can be changed with `PIPELINE_OUT`.
+Run every script from this folder; each one reads `config.R`. Set `PIPELINE_OUT` to change the output location. The analysis uses **two environments**, as the original analysis did; see [`environment/ENVIRONMENT.md`](environment/ENVIRONMENT.md).
 
-The analysis spans **two environments**, exactly as the published run did:
-
-**1. Steps 00–05 on UB CCR** (`module load foss/2021b r/4.2.0`: R 4.2.0, Seurat 5.1.0, harmony 0.1.0)
+**1. Steps 00–05 on UB CCR:** `module load foss/2021b r/4.2.0` (R 4.2.0, Seurat 5.1.0, Harmony 0.1.0; `presto` 1.0.0 in the user library).
 ```bash
-# Start from the deposited integrated object (recommended):
 mkdir -p output/objects
 cp <deposited>/integrated_seurat_object.rds output/objects/00_integrated.rds
 sbatch run/run_ccr_steps00-05.slurm                       # steps 01-05
-
-# or from raw Cell Ranger output (step 00 needs internet for scType/CloudAzimuth):
+# from raw Cell Ranger output instead (step 00 also needs internet for scType/CloudAzimuth):
 RAW_10X_DIR=/path/to/cellranger STEPS="00 01 02 03 04 05" sbatch run/run_ccr_steps00-05.slurm
 ```
-`presto` (1.0.0) must be installed in the CCR user library. Seurat's `FindAllMarkers` uses it automatically.
+Harmony 0.1.0 is required to reproduce the published clusters exactly. Harmony ≥ 1.0 gives a different embedding.
 
-**2. Steps 06–09 locally** (R 4.5.1, limma 3.66.0, edgeR 4.8.2, speckle 1.10.0)
+**2. Steps 06–09 locally** (R 4.5.1, limma 3.66.0, edgeR 4.8.2, speckle 1.10.0; `renv::restore(lockfile = "environment/local_steps06-09/renv.lock")`):
 ```bash
 # copy output/objects/04_tcell_reclustered.rds from CCR, then
 bash run/run_local_steps06-09.sh
 ```
 
-**3. Verify**
+## Reproducibility check
+`verify/verify_outputs.R` compares a run's outputs with [`published_results/`](published_results/). Tables are compared byte for byte. For objects it compares cells, clusters at every resolution (ARI) and embeddings. Object checks also need the deposited `.rds` files.
 ```bash
-Rscript verify/verify_outputs.R published_results            # all steps
 Rscript verify/verify_outputs.R published_results 06 07 08 09
-# Object checks also need the deposited .rds files under published_results/<module>/objects/
 ```
-
-## Verification
-The final pipeline was run from the deposited integrated object (md5 `a3926732393aa6a5e7387cf13565016e`) and every output was compared with the published files on 2026-10-15:
-
-| Steps | Where | Checks | Result |
-|---|---|---|---|
-| 01 | CCR (job 26499400) | 9 QC checks | all pass |
-| 02–05 | CCR (job 26499400, verified by job 26499401) | 12 tables; 4 objects: cells, every clustering resolution, PCA/Harmony/UMAP | **47 / 47 byte-identical** — [`verify/report_ccr_steps02-05.csv`](verify/report_ccr_steps02-05.csv) |
-| 06–09 | local | 39 tables (cleanup, composition, all DA tests, all DE tables); final object: cells, labels, UMAP | **44 / 44 byte-identical** — [`verify/report_local_steps06-09.csv`](verify/report_local_steps06-09.csv) |
-
-In total, **91 / 91 checks are identical**: same cells, the same 21,899 T cells, the same cluster at every resolution (ARI = 1), identical embeddings, and every published table byte for byte.
-
-The two steps that are not re-verified are:
-- **Step 00**, which needs raw data and network services.
-- **The figures.** Figures depend on the graphics device and font setup; the tables and objects behind every figure are verified. Figures are written as SVG (the DA bar chart also as PDF). Four diagnostic plots are PNG only: the global UMAPs at res 0.1 and 0.2 (step 02), the T-marker violins (step 03) and the voom mean–variance plot (step 09).
-
-## Changes from the original scripts
-Every step whose logic changed the data or the analysis is kept, with identical results.
-
-**Structure and code quality** (no effect on results):
-- **Paths and parameters:** every path and parameter is in `config.R`; every script writes to its own output folder.
-- **Metadata column names:**
-  - Global clusters are now `global_res.<r>` instead of `RNA_snn_res.<r>`.
-  - The original immune object relabelled inherited global columns as `immune_res.0.1/1/1.2/1.5`; here only true immune-level columns carry the `immune_res.` prefix.
-- **Seeds:** the seeds the published run used are now passed explicitly.
-- **Script 07 split into steps 06–09:** cleanup, DA, figures and DE.
-
-**Code that produced published results but was not in a committed script, now included:**
-- **Pseudobulk DE model:** `edgeR::voomLmFit` with sample quality weights and donor blocking; samples with fewer than 20 cells dropped. It produced all published DE tables, including the per-cluster tables.
-- **T-cell marker panels:** `tcell_subset_marker_avg_expr.csv` and the panels, made interactively.
-
-**Removed because not used and not retained in the published results:**
-- **Dead code:** a duplicate `readRDS`, an undefined `saveRDS`, an unused subset and a duplicate object save.
-- **Unused outputs:** a clustree plot and an Ig-filtered copy of the T-cell marker table.
-- **Step 00 extras:** exploratory per-cell DE by cell type. SingleR was in the script but was never run.
+On 2026-10-15 the pipeline was run from the deposited integrated object. **All 91 checks were identical:**
+- Steps 02–05 on CCR: 47/47 ([report](verify/report_ccr_steps02-05.csv)).
+- Steps 06–09 locally: 44/44 ([report](verify/report_local_steps06-09.csv)).
 
 ## Analysis notes
-- **Repeat biopsies** (GM184a, PD161/PD161b, PD164/PD164b/PD164c) are separate samples, and separate integration batches, throughout. Donor is modelled as a blocking factor in DA and DE.
-- **Cluster 9 removal (step 06):** removed as ribosomal-gene-dominated with no lineage markers. The primary DA result is not sensitive to this choice. With donor-blocked propeller, C9 has p = 0.0071 as published, p = 0.0055 with cluster 9 kept as its own cluster, p = 0.0059 with it merged into C2, and p = 0.0048 with no cleanup at all.
-- **ρ = 0.99 is kept in the ρ sweep (step 07).** It is a numerical boundary and the one grid point where the result does not hold. It is reported rather than removed.
-- **Ig genes:** `is_ig` genes are excluded from the volcano plots, because ambient Ig is donor-driven in this dataset.
-
-## Environment
-See [`environment/ENVIRONMENT.md`](environment/ENVIRONMENT.md). For each environment it records the OS, BLAS, `sessionInfo()`, every package version and an `renv.lock`.
+- **Repeat biopsies** (PD161/PD161b, PD164/PD164b/PD164c) are separate samples and separate integration batches throughout. Donor is a blocking factor in DA and DE.
+- **Cluster 9 removal does not drive the C9 result.** The donor-blocked C9 p-value is 0.0071 as published, 0.0055 with cluster 9 kept, 0.0059 with it merged into C2, and 0.0048 with no cleanup at all.
+- **ρ = 0.99 is kept in the ρ-sensitivity sweep** (`DA_propeller_rho_sensitivity*.csv`). It is a numerical boundary and the one grid point where the result does not hold.
+- **Immunoglobulin genes are flagged (`is_ig`) and left out of the volcano plots,** because ambient Ig is donor-driven in this dataset.
 
 ## Authors
-- Step 00 (QC and integration): **Tyler Chinsky**
-- Steps 01–09: Apoorva
+- Step 00 (QC and integration): Tyler Chinsky
+- Steps 01–09: Apoorva Sharma
