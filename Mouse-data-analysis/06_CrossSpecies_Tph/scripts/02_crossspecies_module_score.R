@@ -44,7 +44,7 @@ MOUSE_RDS  <- "../../03_Tcell_Analysis/objects/tcell_TCRab_annotated_final04_cle
 OBJ <- "../objects"; FIG <- "../figures"; RES <- "../results"
 
 HUMAN_TARGET <- "C9"; MOUSE_TARGET <- "Tfh/Tph-like"
-HUMAN_ACCENT <- "#6FA8B8"   # matches human_tcell_final_annotation_v4.R palette for C9
+HUMAN_ACCENT <- "#6FA8B8"   # matches the human C9 colour (Human-data-analysis/config.R)
 MOUSE_ACCENT <- "#E15759"   # matches Tcell_ab_analysis_reclustering.R for cluster 2
 CTRL_N <- 100; NBIN <- 24
 MIN_C9_CELLS_PER_DONOR <- 10

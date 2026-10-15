@@ -50,7 +50,7 @@ requires script 01** to have run, for `objects/ortholog_map_1to1.csv`.
 | Mouse markers | `../03_Tcell_Analysis/objects/markers_TCRab_res0.8_top500.csv` |
 
 Target clusters: human `cluster_code == "C9"` (873 cells; = raw cluster **8**, before
-`human_tcell_final_annotation_v4.R` renames 0–8 to C1–C9) and mouse `celltype_merged == "Tfh/Tph-like"`
+`Human-data-analysis` step 06 renames 0–8 to C1–C9) and mouse `celltype_merged == "Tfh/Tph-like"`
 (1,045 cells; = `RNA_snn_res.0.8` cluster 2).
 
 ---
@@ -181,7 +181,7 @@ type replicates — the pair scores 0.428, i.e. worse than a coin flip.
 
 *Note on C4:* it pairs marginally better with mouse Tregs-like (0.829) than with
 Th17-like (0.808). That is consistent with the annotation history recorded in
-`../Human/human_tcell_final_annotation_v4.R:318` — C4 was first read as a Th17-like effector Treg
+the human cluster-3 validation (`../../Human-data-analysis/scripts/05_tcell_validation.R`) — C4 was first read as a Th17-like effector Treg
 because TNFRSF18/GITR, TNFRSF4/OX40 and IL2RA/CD25 appear in its markers.
 
 ## B-helper module feature UMAPs (script 04)
@@ -328,7 +328,7 @@ CXCR5  / Cxcr5       6.6%        0.2%      agree (both low = both non-Tfh)
 ```
 
 Canonical human Tph is PD-1-high / CXCR5-negative / CXCL13-positive. Human C9 has
-CXCL13 but not PD-1 — a caveat already recorded in `../Human/human_tcell_final_annotation_v4.R:347`.
+CXCL13 but not PD-1 — a caveat already recorded in the human cluster-8 validation (`../../Human-data-analysis/scripts/05_tcell_validation.R`).
 Mouse cluster 2 has Pdcd1 but zero Cxcl13, and Module 03 records its identity as
 "inconclusive". Each was labelled from a different half of the definition.
 

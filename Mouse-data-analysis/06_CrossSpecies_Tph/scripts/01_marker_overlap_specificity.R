@@ -57,7 +57,7 @@ MATCH_LFC    <- 0.25
 PADJ         <- 0.05
 
 # Human raw cluster (0-8, post contamination removal) -> display code.
-# human_tcell_final_annotation_v4.R drops cluster 9 (ribosomal artifact) and merges 10 into 0.
+# Human-data-analysis step 06 drops cluster 9 (ribosomal artifact) and merges 10 into 0.
 HUMAN_CODE <- c("0"="C1","1"="C2","2"="C3","3"="C4","4"="C5",
                 "5"="C6","6"="C7","7"="C8","8"="C9")
 HUMAN_LAB  <- c(C1="CD8 TEM (GZMK/GZMH)", C2="CD4 naive/CM", C3="CD8 TEM (ZEB2-hi)",
