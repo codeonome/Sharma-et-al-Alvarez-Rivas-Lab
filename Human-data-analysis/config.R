@@ -10,7 +10,7 @@
 
 # --- Paths ------------------------------------------------------------
 OUT_ROOT    <- Sys.getenv("PIPELINE_OUT", "output")
-RAW_10X_DIR <- Sys.getenv("RAW_10X_DIR", "/projects/academic/carlaalv/Human-PD-GM-data")
+RAW_10X_DIR <- Sys.getenv("RAW_10X_DIR", "data/cellranger")
 
 OBJ_DIR <- file.path(OUT_ROOT, "objects")
 step_dirs <- function(step) {

@@ -1,7 +1,7 @@
 # =====================================================================
 # Step 00 -- QC, merge and integration of the 21 GSE164241 samples
 #
-# Author : Tyler Chinsky (original analysis, CCR, 2026-08-28)
+# Author : Tyler Chinsky (original analysis, 2026-08-28)
 # Input  : Cell Ranger outputs, one folder per sample, in RAW_10X_DIR
 #          (<sample>/outs/filtered_feature_bc_matrix)
 # Output : objects/00_integrated.rds        (the pipeline's starting object)
@@ -11,8 +11,7 @@
 # Status : NOT re-verified. The published integrated object (md5
 #          a3926732393aa6a5e7387cf13565016e) is the verified starting point
 #          of this pipeline; steps 01-09 reproduce every published result
-#          from it. This script mirrors the code that produced that object
-#          (/projects/academic/carlaalv/Human_integration/seurat_integration.R).
+#          from it. This script mirrors the code that produced that object.
 #          Automated cell-type annotation run in that session (10x Cloud,
 #          scType, CloudAzimuth) was not used in the analysis and is omitted;
 #          cell types were annotated manually from marker genes (steps 03-06).

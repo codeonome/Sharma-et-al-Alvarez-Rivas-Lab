@@ -20,6 +20,9 @@ Each row links to the script that produces the panel and to the table of values 
 
 Panels drawn directly from a Seurat object have no separate table. The objects are deposited at Zenodo (see below).
 
+<details>
+<summary><b>Show all figures and tables (30 rows: script + data table for each panel)</b></summary>
+
 | Item | Content | Code | Data table(s) |
 |---|---|---|---|
 | Fig. 1A–B | Imaging mass cytometry, human gingiva | not in this repository (QuPath/Fiji) | — |
@@ -52,6 +55,8 @@ Panels drawn directly from a Seurat object have no separate table. The objects a
 | Supp. Table 1 | Human differential abundance, all clusters | [07_differential_abundance.R](Human-data-analysis/scripts/07_differential_abundance.R) | [Propeller_DA_results.xlsx](Human-data-analysis/published_results/04_Tcell_Final/results/Propeller_DA_results.xlsx) (from [DA_propeller_donor_blocked.csv](Human-data-analysis/published_results/04_Tcell_Final/results/DA_propeller_donor_blocked.csv), [DA_all_tests_wide.csv](Human-data-analysis/published_results/04_Tcell_Final/results/DA_all_tests_wide.csv)) |
 | Supp. Table 2 | Jaccard index per CD4 cluster | [Beta_Gene_Jaccard_By_CellType.R](Mouse-data-analysis/05_TCR_Repertoire_Analysis/scripts/Beta_Gene_Jaccard_By_CellType.R) | [TABLE5_jaccard_by_celltype.csv](Mouse-data-analysis/05_TCR_Repertoire_Analysis/objects/TABLE5_jaccard_by_celltype.csv) |
 | Supp. Tables 3–4 | Convergent clonotype variants | [05_TCR_Repertoire_Analysis/scripts/](Mouse-data-analysis/05_TCR_Repertoire_Analysis/scripts/) | *[to be confirmed]* |
+
+</details>
 
 ## Data and code availability
 - **Mouse scRNA-seq and TCR-seq:** GEO [GSE350875](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350875)

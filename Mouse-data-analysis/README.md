@@ -25,6 +25,9 @@ Every module folder has the same structure: `scripts/` (code), `objects/` (table
 ## Paper figures → code
 See the [top-level README](../README.md#figures-and-tables--code) for the full index with links to each script and data table.
 
+<details>
+<summary><b>Show mouse figure panels → module outputs</b></summary>
+
 | Figure | Panels | Module · output |
 |---|---|---|
 | Fig. 4 | B | 01 · `figures/UMAP_pies_by_condition_combined.svg` |
@@ -46,6 +49,8 @@ See the [top-level README](../README.md#figures-and-tables--code) for the full i
 | Supp. Table 2 | — | 05 · `objects/TABLE5_jaccard_by_celltype.csv` (per-CD4-cluster Jaccard, REC vs RCU) |
 | Supp. Table 3 | — | 05 · *[to be confirmed]* |
 | Supp. Table 4 | — | 05 · *[to be confirmed]* |
+
+</details>
 
 Figure 1C–G and Supplementary Table 1 (human scRNA-seq) are produced by [`../Human-data-analysis`](../Human-data-analysis). Figure 1A–B (imaging mass cytometry), Figures 2–3 and Supplementary Figure 1 (flow cytometry, micro-CT, qPCR, TRAP, adoptive transfer) were analysed in GraphPad Prism / FlowJo / QuPath and are not produced by code in this repository. Figures 4A and 6A are schematics.
 

@@ -1,9 +1,9 @@
 #!/bin/bash
 # ---------------------------------------------------------------------
-# Steps 06-09 locally (R 4.5.1 + limma/edgeR/speckle; environment/local_steps06-09/).
-# Run from the pipeline/ directory after steps 00-05:
-#   bash run/run_local_steps06-09.sh
-# Needs, from the CCR run (or the deposited files):
+# Steps 06-09 in Environment 2 (R 4.5.1, limma, edgeR, speckle;
+# see environment/env2_steps06-09/). Run from Human-data-analysis/:
+#   bash run/run_steps06-09.sh
+# Needs, from steps 00-05 (or the deposited files):
 #   $PIPELINE_OUT/objects/04_tcell_reclustered.rds
 # ---------------------------------------------------------------------
 set -euo pipefail
