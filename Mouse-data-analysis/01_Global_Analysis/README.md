@@ -21,7 +21,7 @@ The script that built this object is not part of the repository. The parameters 
 | Graph / clusters | `FindNeighbors` on `integrated.cca` dims 1–30 (k = 20); Louvain; resolution 0.05 used for annotation |
 | UMAP | `RunUMAP` on `integrated.cca` dims 1–30 (30 neighbours, min.dist 0.3, cosine) → `umap.cca` |
 
-Cell Ranger version, reference genome and QC cutoffs are not recorded in the object; retained cells have ≥ ~500 UMIs and < 19% mitochondrial reads.
+Per the manuscript's Materials and Methods, the object was built with Cell Ranger multi (v9.0.0; GRCm39 2024 reference), scRepertoire (v2.5.0; `combineTCR` / `combineExpression`) and Seurat (v5.0.3) in R 4.4.2, keeping cells with ≥ 100 detected genes and < 20% mitochondrial reads. Modules 01–06 in this repository then run in R 4.5.1 with the package versions in `renv.lock`.
 
 ## Key Analysis Steps
 1. Set default assay to RNA; inspect cluster structure
