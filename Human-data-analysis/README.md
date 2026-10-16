@@ -8,7 +8,7 @@ The data are public scRNA-seq of human gingiva ([GSE164241](https://www.ncbi.nlm
 The **published values** behind every panel are in [`published_results/04_Tcell_Final/results/`](published_results/04_Tcell_Final/results/); a run writes the same files under `output/`.
 
 <details>
-<summary><b>Figure 1, Supp. Table 1 and Fig. 7 → script and output files</b></summary>
+<summary><b>Show Figure 1, Supp. Table 1 and Fig. 7 → script and outputs</b></summary>
 
 | Manuscript item | Content | Script | Output (`output/…`) |
 |---|---|---|---|
@@ -28,7 +28,7 @@ Figure 1A–B (imaging mass cytometry) is not produced by code in this repositor
 The manuscript uses functional names. The code and the tables use marker-based labels (`cluster_id`). Both refer to the same clusters, identified by the code C1–C9.
 
 <details>
-<summary><b>C1–C9: manuscript names vs code labels</b></summary>
+<summary><b>Show C1–C9: manuscript names vs code labels</b></summary>
 
 | Code | Manuscript (Fig. 1) | Label in code and tables | Lineage |
 |---|---|---|---|
@@ -45,10 +45,10 @@ The manuscript uses functional names. The code and the tables use marker-based l
 </details>
 
 ## Steps
-| Step | Script | What it does | Feeds | Env. |
 <details>
-<summary><b>Steps 00–09 (Env. 1 = R 4.2.0 / Seurat 5.1.0 / harmony 0.1.0; Env. 2 = R 4.5.1 / limma / edgeR / speckle)</b></summary>
+<summary><b>Show steps 00–09</b></summary>
 
+| Step | Script | What it does | Feeds | Env. |
 |---|---|---|---|---|
 | 00 | [`00_integration.R`](scripts/00_integration.R) | Per-sample QC (200–6,000 genes, < 20% mitochondrial), merge, CCA and Harmony integration, clustering | — | 1 |
 | 01 | [`01_qc_integrated_object.R`](scripts/01_qc_integrated_object.R) | Sanity checks on the integrated object | — | 1 |
@@ -60,6 +60,8 @@ The manuscript uses functional names. The code and the tables use marker-based l
 | 07 | [`07_differential_abundance.R`](scripts/07_differential_abundance.R) | Composition; Wilcoxon and propeller tests; **primary: donor-blocked propeller**; leave-one-donor-out; ρ sensitivity | Fig. 1G, Supp. Table 1 | 2 |
 | 08 | [`08_figures.R`](scripts/08_figures.R) | Figure 1 panels C, D, E and G, plus supporting plots | Fig. 1C–E, G | 2 |
 | 09 | [`09_pseudobulk_de.R`](scripts/09_pseudobulk_de.R) | Pseudobulk DE, PD vs GM: all T cells and each cluster C1–C9 | Fig. 1F | 2 |
+
+Env. 1 = R 4.2.0, Seurat 5.1.0, harmony 0.1.0. Env. 2 = R 4.5.1, limma, edgeR, speckle (see [environment](environment/ENVIRONMENT.md)).
 
 </details>
 
