@@ -54,4 +54,4 @@ renv::restore(lockfile = "environment/local_steps06-09/renv.lock")
 ```
 
 ## Step 00 environment
-Step 00 was run by Tyler Chinsky (CCR, 2026-08-28). Beyond the CCR stack above, it needs `HGNChelper` (scType) and `AzimuthAPI` (CloudAzimuth), which are not in the captured environment. SingleR was not used. The deposited integrated object is the verified starting point.
+Step 00 was run by Tyler Chinsky (CCR, 2026-08-28) with the same CCR stack. The deposited integrated object is the verified starting point for steps 01–09.

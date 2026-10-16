@@ -3,10 +3,9 @@
 #
 # Author : Tyler Chinsky (original analysis, CCR, 2026-08-28)
 # Input  : Cell Ranger outputs, one folder per sample, in RAW_10X_DIR
-#          (<sample>/outs/filtered_feature_bc_matrix and, if present,
-#           <sample>/outs/cell_types/cell_types.csv from 10x Cloud)
+#          (<sample>/outs/filtered_feature_bc_matrix)
 # Output : objects/00_integrated.rds        (the pipeline's starting object)
-#          results/00_integration/*         QC counts, markers, annotations
+#          results/00_integration/*         QC cell counts, cluster markers
 #          figures/00_integration/*         QC and UMAP plots
 #
 # Status : NOT re-verified. The published integrated object (md5
@@ -14,18 +13,17 @@
 #          of this pipeline; steps 01-09 reproduce every published result
 #          from it. This script mirrors the code that produced that object
 #          (/projects/academic/carlaalv/Human_integration/seurat_integration.R).
-#          SingleR was not run in that session and is omitted here.
-#          Annotation (scType, CloudAzimuth) needs internet access.
+#          Automated cell-type annotation run in that session (10x Cloud,
+#          scType, CloudAzimuth) was not used in the analysis and is omitted;
+#          cell types were annotated manually from marker genes (steps 03-06).
 #
-# Repeat biopsies (GM184a, PD161/PD161b, PD164/PD164b/PD164c) are kept
+# Repeat biopsies (PD161/PD161b, PD164/PD164b/PD164c) are kept
 # as independent samples: each is its own integration batch. `donor`
 # records the base subject for tracking only.
 # =====================================================================
 suppressPackageStartupMessages({
   library(Seurat); library(Matrix); library(dplyr); library(tidyr)
-  library(ggplot2); library(patchwork); library(stringr); library(harmony)
-  library(HGNChelper)   # scType
-  library(AzimuthAPI)   # CloudAzimuth
+  library(ggplot2); library(patchwork); library(harmony)
 })
 source("config.R"); source("R/helpers.R")
 STEP <- "00_integration"
@@ -38,17 +36,14 @@ set.seed(SEED_GLOBAL)
 sample_ids  <- list.files(RAW_10X_DIR, pattern = "^(GM|PD)")
 sample_ids  <- sample_ids[dir.exists(file.path(RAW_10X_DIR, sample_ids, "outs"))]
 sample_dirs <- setNames(file.path(RAW_10X_DIR, sample_ids, "outs", "filtered_feature_bc_matrix"), sample_ids)
-annot_files <- setNames(file.path(RAW_10X_DIR, sample_ids, "outs", "cell_types", "cell_types.csv"), sample_ids)
 stopifnot(length(sample_dirs) > 0)
 missing <- names(sample_dirs)[!dir.exists(sample_dirs)]
 if (length(missing)) stop("Missing matrix dirs: ", paste(missing, collapse = ", "))
-log_step("Found ", length(sample_dirs), " samples; ", sum(file.exists(annot_files)), " with 10x cell_types.csv")
+log_step("Found ", length(sample_dirs), " samples")
 
 # ---------------------------------------------------------------------
-# 2. Load, annotate and QC each sample
+# 2. Load and QC each sample
 # ---------------------------------------------------------------------
-ANNOT_10X <- c("coarse_cell_type", "fine_cell_type", "cell_count_in_model",
-               "coarse_cell_type_unfiltered", "umi_count")
 
 load_sample <- function(sample_name) {
   log_step("Loading ", sample_name)
@@ -59,22 +54,6 @@ load_sample <- function(sample_name) {
   obj$donor     <- sub("[a-c]$", "", sample_name)
   obj$replicate <- ifelse(grepl("[a-c]$", sample_name), sub("^.*([a-c])$", "\\1", sample_name), "a")
   obj[["percent.mt"]] <- PercentageFeatureSet(obj, pattern = "^MT-")
-
-  # 10x Cloud labels must be attached before merge(), while barcodes are bare
-  af <- annot_files[[sample_name]]
-  if (file.exists(af)) {
-    ct <- read.csv(af, stringsAsFactors = FALSE)
-    bc_col <- grep("^barcode", names(ct), ignore.case = TRUE, value = TRUE)[1]
-    if (is.na(bc_col)) stop("No barcode column in ", af)
-    rownames(ct) <- ct[[bc_col]]
-    want <- intersect(ANNOT_10X, names(ct))
-    ann <- ct[colnames(obj), want, drop = FALSE]
-    rownames(ann) <- colnames(obj)
-    if (sum(!is.na(ann[[want[1]]])) == 0) warning(sample_name, ": zero barcode overlap with cell_types.csv")
-    obj <- AddMetaData(obj, ann)
-  } else {
-    for (cc in ANNOT_10X) obj[[cc]] <- NA
-  }
 
   VlnPlot(obj, features = c("nFeature_RNA", "nCount_RNA", "percent.mt"), ncol = 3, pt.size = 0)
   ggsave(file.path(d$figures, paste0(sample_name, "_qc_metrics.png")), width = 12, height = 4, dpi = 150)
@@ -169,83 +148,6 @@ UMAP_PRIMARY <- paste0("umap.", PRIMARY)
 # ---------------------------------------------------------------------
 markers_and_top10(combined, file.path(d$results, "cluster_markers.csv"),
                   file.path(d$results, "top10_markers_per_cluster.csv"))
-
-# ---------------------------------------------------------------------
-# 8. Annotation: 10x Cloud labels, scType, CloudAzimuth
-# ---------------------------------------------------------------------
-if (any(!is.na(combined$coarse_cell_type))) {
-  for (lv in c("coarse", "fine")) {
-    col <- paste0(lv, "_cell_type")
-    write.csv(as.data.frame.matrix(table(Idents(combined), combined[[col]][, 1], useNA = "ifany")),
-              file.path(d$results, sprintf("cluster_vs_10x_%s.csv", lv)))
-  }
-}
-
-# scType: one label per cluster from marker enrichment on scaled data
-sctype_ok <- tryCatch({
-  source("https://raw.githubusercontent.com/IanevskiAleksandr/sc-type/master/R/gene_sets_prepare.R")
-  source("https://raw.githubusercontent.com/IanevskiAleksandr/sc-type/master/R/sctype_score_.R")
-  TRUE
-}, error = function(e) { message("scType source failed: ", conditionMessage(e)); FALSE })
-if (sctype_ok) {
-  gs_list <- gene_sets_prepare(
-    "https://raw.githubusercontent.com/IanevskiAleksandr/sc-type/master/ScTypeDB_full.xlsx", SCTYPE_TISSUE)
-  es.max <- sctype_score(scRNAseqData = GetAssayData(combined, assay = "RNA", layer = "scale.data"),
-                         scaled = TRUE, gs = gs_list$gs_positive, gs2 = gs_list$gs_negative)
-  cl_res <- do.call("rbind", lapply(unique(Idents(combined)), function(cl) {
-    cells <- WhichCells(combined, idents = cl)
-    es.cl <- sort(rowSums(es.max[, colnames(es.max) %in% cells, drop = FALSE]), decreasing = TRUE)
-    head(data.frame(cluster = cl, type = names(es.cl), scores = es.cl, ncells = length(cells)), 10)
-  }))
-  top_sctype <- cl_res %>% group_by(cluster) %>% slice_max(scores, n = 1)
-  top_sctype$type[top_sctype$scores < top_sctype$ncells / 4] <- "Unknown"
-  write.csv(cl_res, file.path(d$results, "sctype_all_scores.csv"), row.names = FALSE)
-  write.csv(top_sctype, file.path(d$results, "sctype_cluster_calls.csv"), row.names = FALSE)
-  combined$scType <- as.character(top_sctype$type[match(as.character(Idents(combined)),
-                                                        as.character(top_sctype$cluster))])
-} else {
-  combined$scType <- NA_character_
-}
-
-# CloudAzimuth: hosted hierarchical reference mapping (broad/medium/fine)
-AZ_COLS <- c("azimuth_broad", "azimuth_medium", "azimuth_fine", "azimuth_label",
-             "full_hierarchical_labels", "final_level_labels", "final_level_confidence",
-             "full_consistent_hierarchy")
-tryCatch({
-  az <- CloudAzimuth(combined)
-  for (cc in intersect(AZ_COLS, colnames(az[[]]))) combined[[cc]] <- az[[cc]][, 1]
-  rm(az); gc()
-  if ("final_level_confidence" %in% colnames(combined@meta.data)) {
-    combined$final_level_confidence <- as.numeric(combined$final_level_confidence)
-  }
-  write.csv(as.data.frame.matrix(table(Idents(combined), combined$azimuth_fine, useNA = "ifany")),
-            file.path(d$results, "cluster_vs_azimuth_fine.csv"))
-}, error = function(e) message("CloudAzimuth failed: ", conditionMessage(e)))
-
-# Per-cluster majority label from every available annotation, side by side
-annot_cols <- intersect(c("coarse_cell_type", "fine_cell_type", "scType",
-                          "azimuth_broad", "azimuth_medium", "azimuth_fine"), colnames(combined@meta.data))
-annot_cols <- annot_cols[vapply(annot_cols, function(x) any(!is.na(combined[[x]][, 1])), logical(1))]
-consensus <- lapply(annot_cols, function(ac) {
-  combined@meta.data %>%
-    mutate(cluster = as.character(Idents(combined))) %>%
-    filter(!is.na(.data[[ac]])) %>%
-    dplyr::count(cluster, label = .data[[ac]]) %>%
-    group_by(cluster) %>% slice_max(n, n = 1, with_ties = FALSE) %>% ungroup() %>%
-    transmute(cluster, method = ac, label)
-}) %>% bind_rows() %>%
-  pivot_wider(names_from = method, values_from = label) %>%
-  arrange(suppressWarnings(as.numeric(cluster)))
-write.csv(consensus, file.path(d$results, "cluster_annotation_consensus.csv"), row.names = FALSE)
-
-# Composition per sample for each label source (repeat biopsies as separate rows)
-for (lc in annot_cols) {
-  comp <- combined@meta.data %>%
-    filter(!is.na(.data[[lc]])) %>%
-    dplyr::count(sample, donor, condition, label = .data[[lc]]) %>%
-    group_by(sample) %>% mutate(frac = n / sum(n)) %>% ungroup()
-  write.csv(comp, file.path(d$results, sprintf("composition_%s.csv", lc)), row.names = FALSE)
-}
 
 saveRDS(combined, OBJ$integrated)
 save_session(STEP, d)

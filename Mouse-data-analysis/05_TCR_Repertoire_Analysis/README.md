@@ -34,8 +34,8 @@ Scripts 2–5 read TABLE1 from script 1; scripts 10 reads TABLE14 from script 9.
 | Fig. 6B | `figures/CD4_combined_chord.svg` (top 12 TRBV × top 12 TRBJ per panel, ribbons normalized within condition) |
 | Fig. 6C | `figures/beta_gene_top_enriched_shared_bar.svg` |
 | Fig. 6D | `objects/TABLE5_jaccard_by_celltype.csv` + global row from `TABLE2_jaccard_global.csv` |
-| Fig. 6E | `figures/convergent_V1_heatmap.svg` |
-| Fig. 6F | `objects/Clonotype_TABLE17_V1_TCR_sequence.csv` |
+| Fig. 6E | `objects/Clonotype_TABLE17_V1_TCR_sequence.csv` (V1 TCR sequences) |
+| Fig. 6F | `figures/convergent_V1_heatmap.svg` (V1 marker heatmap; values in `objects/Clonotype_TABLE16_convergent_variant_heatmap_matrix.csv`) |
 | Fig. S2D | `figures/tcr_dropout_depth_by_status.svg`, `tcr_dropout_percell_logit.svg`, `tcr_dropout_rate_vs_depth.svg` |
 
 `convergent_variant_heatmaps.svg` (V1–V3 side by side), `ALLcells_combined.svg`, `Expanded_celltype_combined.svg` and the scatter plots are produced alongside but not used in the paper.

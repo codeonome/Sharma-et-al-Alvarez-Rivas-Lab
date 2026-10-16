@@ -5,7 +5,6 @@
 "Matrix","1.6-5","/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/MPI/gcc/11.2.0/openmpi/4.1.1/r/4.2.0/lib64/R/library","recommended","4.2.0","CRAN",NA,NA,TRUE
 "patchwork","1.1.1","/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/MPI/gcc/11.2.0/openmpi/4.1.1/r/4.2.0/lib64/R/library",NA,"4.2.0","CRAN",NA,NA,TRUE
 "Seurat","5.1.0","/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/MPI/gcc/11.2.0/openmpi/4.1.1/r/4.2.0/lib64/R/library",NA,"4.2.0","CRAN",NA,NA,TRUE
-"stringr","1.4.0","/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/MPI/gcc/11.2.0/openmpi/4.1.1/r/4.2.0/lib64/R/library",NA,"4.2.0","CRAN",NA,NA,TRUE
 "tidyr","1.2.0","/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/MPI/gcc/11.2.0/openmpi/4.1.1/r/4.2.0/lib64/R/library",NA,"4.2.0","CRAN",NA,NA,TRUE
 "abind","1.4-5","/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/MPI/gcc/11.2.0/openmpi/4.1.1/r/4.2.0/lib64/R/library",NA,"4.2.0","CRAN",NA,NA,FALSE
 "askpass","1.1","/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/MPI/gcc/11.2.0/openmpi/4.1.1/r/4.2.0/lib64/R/library",NA,"4.2.0","CRAN",NA,NA,FALSE
@@ -128,6 +127,7 @@
 "spatstat.univar","3.1-1","/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/MPI/gcc/11.2.0/openmpi/4.1.1/r/4.2.0/lib64/R/library",NA,"4.2.0","CRAN",NA,NA,FALSE
 "spatstat.utils","3.1-1","/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/MPI/gcc/11.2.0/openmpi/4.1.1/r/4.2.0/lib64/R/library",NA,"4.2.0","CRAN",NA,NA,FALSE
 "stringi","1.7.6","/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/MPI/gcc/11.2.0/openmpi/4.1.1/r/4.2.0/lib64/R/library",NA,"4.2.0","CRAN",NA,NA,FALSE
+"stringr","1.4.0","/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/MPI/gcc/11.2.0/openmpi/4.1.1/r/4.2.0/lib64/R/library",NA,"4.2.0","CRAN",NA,NA,FALSE
 "survival","3.3-1","/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/MPI/gcc/11.2.0/openmpi/4.1.1/r/4.2.0/lib64/R/library","recommended","4.2.0","CRAN",NA,NA,FALSE
 "sys","3.4","/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/MPI/gcc/11.2.0/openmpi/4.1.1/r/4.2.0/lib64/R/library",NA,"4.2.0","CRAN",NA,NA,FALSE
 "tensor","1.5","/cvmfs/soft.ccr.buffalo.edu/versions/2023.01/easybuild/software/avx512/MPI/gcc/11.2.0/openmpi/4.1.1/r/4.2.0/lib64/R/library",NA,"4.2.0","CRAN",NA,NA,FALSE

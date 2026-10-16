@@ -23,6 +23,7 @@ Paper modules run in numeric order; each reads only the outputs of earlier modul
 Every module folder has the same structure: `scripts/` (code), `objects/` (tables and Seurat objects written by the scripts), `figures/` (SVGs), `results/` (session info and run logs). Each module's `README.md` lists its scripts, inputs and outputs.
 
 ## Paper figures → code
+See the [top-level README](../README.md#figures-and-tables--code) for the full index with links to each script and data table.
 
 | Figure | Panels | Module · output |
 |---|---|---|
@@ -32,7 +33,8 @@ Every module folder has the same structure: `scripts/` (code), `objects/` (table
 | Fig. 6 | B | 05 · `figures/CD4_combined_chord.svg` |
 | | C | 05 · `figures/beta_gene_top_enriched_shared_bar.svg` |
 | | D | 05 · `objects/TABLE2_jaccard_global.csv`, `objects/TABLE5_jaccard_by_celltype.csv` |
-| | E–F | 05 · `figures/convergent_V1_heatmap.svg`, `objects/Clonotype_TABLE17_V1_TCR_sequence.csv` |
+| | E | 05 · `objects/Clonotype_TABLE17_V1_TCR_sequence.csv` |
+| | F | 05 · `figures/convergent_V1_heatmap.svg` |
 | Fig. 7 | A–C | 06 · `figures/bhelper_gene_heatmap_{human,mouse}_nolabels.svg`, `bhelper_featureumap_{human,mouse}.svg`, `bhelper_score_violin_{human,mouse}.svg` |
 | Fig. S2 | A–B | 01 · `figures/Fig4_A_B_combined.svg` |
 | | C | 03 · `figures/TCR_status_by_condition.svg` |

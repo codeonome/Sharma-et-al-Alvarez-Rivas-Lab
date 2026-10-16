@@ -40,13 +40,6 @@ single_sample <- rownames(ct)[rowSums(ct > 0) == 1]
 cat("\n== Replicate concordance (cells per cluster, repeat-biopsy donors) ==\n")
 for (dn in reps$donor) print(table(md$sample[md$donor == dn], md$seurat_clusters[md$donor == dn]))
 
-cat("\n== Annotation coverage ==\n")
-annot_cols <- intersect(c("coarse_cell_type", "fine_cell_type", "scType", "azimuth_broad",
-                          "azimuth_medium", "azimuth_fine", "final_level_confidence"), colnames(md))
-for (ac in annot_cols) {
-  cat(sprintf("%-24s %6d NA, %d labels\n", ac, sum(is.na(md[[ac]])), length(unique(na.omit(md[[ac]])))))
-}
-
 checks <- c(
   "counts layer joined"           = length(Layers(combined, search = "counts")) == 1,
   "no duplicated barcodes"        = !any(duplicated(colnames(combined))),
@@ -55,8 +48,7 @@ checks <- c(
   "one condition per sample"      = !any(duplicated(distinct(md, sample, condition)$sample)),
   "integrated.harmony present"    = GLOBAL_REDUCTION %in% Reductions(combined),
   "umap.harmony present"          = GLOBAL_UMAP %in% Reductions(combined),
-  "repeat-biopsy donors detected" = nrow(reps) > 0,
-  "annotation present"            = length(annot_cols) > 0
+  "repeat-biopsy donors detected" = nrow(reps) > 0
 )
 cat("\n== Checks ==\n"); print(checks)
 if (length(single_sample)) {

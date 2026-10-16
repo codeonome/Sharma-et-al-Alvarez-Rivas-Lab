@@ -1,5 +1,5 @@
 Label:    UB CCR - steps 00-05 (ccrsoft/2023.01, foss/2021b, r/4.2.0) 
-Captured: 2026-10-15 13:05 EDT 
+Captured: 2026-10-16 12:36 EDT 
 Host:     login2.cbls.ccr.buffalo.edu | OS: Linux 7.0.0-34-generic | machine: x86_64 
 PRETTY_NAME="Ubuntu 24.04.5 LTS" 
 CPU:      model name	: AMD EPYC 9355P 32-Core Processor 
@@ -19,5 +19,5 @@ Scripts scanned:
   03_immune_subset.R
   04_tcell_reclustering.R
   05_tcell_validation.R
-Packages called directly: AzimuthAPI, dplyr, ggplot2, harmony, HGNChelper, Matrix, patchwork, Seurat, stringr, tidyr 
-NOT INSTALLED here: AzimuthAPI, HGNChelper 
+Packages called directly: dplyr, ggplot2, harmony, Matrix, patchwork, Seurat, tidyr 
+NOT INSTALLED here: none 

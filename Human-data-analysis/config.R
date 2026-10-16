@@ -48,7 +48,6 @@ INT_NPCS              <- 50
 INT_UMAP_DIMS_UNINT   <- 1:30
 INT_CLUSTER_DIMS      <- 1:50
 INT_CLUSTER_RES       <- 0.5
-SCTYPE_TISSUE         <- "Intestine"
 
 # --- Step 02: global clustering ---------------------------------------
 GLOBAL_REDUCTION <- "integrated.harmony"

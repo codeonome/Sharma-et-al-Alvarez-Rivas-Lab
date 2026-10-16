@@ -5,15 +5,17 @@ Code for the human single-cell analyses in **Sharma et al., *Clonally Convergent
 The data are public scRNA-seq of human gingiva ([GSE164241](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164241); Williams et al., 2021): 21 biopsies from 18 donors, 13 healthy (GM) and 8 periodontitis (PD). Two donors gave repeat biopsies: PD164 (3) and PD161 (2). The pipeline goes from the integrated object to nine T-cell clusters (C1–C9). It then tests their differential abundance between PD and GM and runs pseudobulk differential expression.
 
 ## Figures and tables → code
+The **published values** behind every panel are in [`published_results/04_Tcell_Final/results/`](published_results/04_Tcell_Final/results/); a run writes the same files under `output/`.
+
 | Manuscript item | Content | Script | Output (`output/…`) |
 |---|---|---|---|
-| **Fig. 1C** | T-cell UMAP, all subjects; density in GM and PD | `08_figures.R` | `figures/08_figures/umap_tcell_final.svg`, `umap_density_by_condition.svg` |
-| **Fig. 1D** | Grouped marker dot plot (CD8 · MAIT · CD4) | `08_figures.R` | `figures/08_figures/dotplot_grouped.svg` |
-| **Fig. 1E** | Cluster composition, GM and PD (pooled cells) | `08_figures.R` | `figures/08_figures/donut_GM.svg`, `donut_PD.svg`; `results/08_figures/donut_pooled_percentages.csv` |
-| **Fig. 1F** | Pseudobulk DE, PD vs GM, all T cells; TOX2, BCL6, CXCR5 and CXCL13 highlighted | `09_pseudobulk_de.R` | `figures/09_pseudobulk_de/DE_volcano_PD_vs_GM_allTcells.svg`; `results/09_pseudobulk_de/DE_PD_vs_GM_allTcells.csv` |
-| **Fig. 1G** | Differential abundance: odds ratio (95% CI) and FDR, donor-blocked propeller | `07_differential_abundance.R`, `08_figures.R` | `figures/08_figures/DA_bar_blocked.svg`; `results/07_differential_abundance/DA_propeller_donor_blocked.csv` |
-| **Supp. Table 1** | DA for all clusters: donor-blocked (primary), sample-level and donor-level models | `07_differential_abundance.R` | `results/07_differential_abundance/DA_propeller_donor_blocked.csv`, `DA_all_tests_wide.csv` (assembled as `published_results/04_Tcell_Final/results/Propeller_DA_results.xlsx`) |
-| **Fig. 7A–C** (human) | B-helper module in human T-cell clusters | `../Mouse-data-analysis/06_CrossSpecies_Tph` | inputs: `objects/06_tcell_final.rds`, `results/04_tcell_reclustering/tcell_subset_markers.csv` |
+| **Fig. 1C** | T-cell UMAP, all subjects; density in GM and PD | [`08_figures.R`](scripts/08_figures.R) | `figures/08_figures/umap_tcell_final.svg`, `umap_density_by_condition.svg` |
+| **Fig. 1D** | Grouped marker dot plot (CD8 · MAIT · CD4) | [`08_figures.R`](scripts/08_figures.R) | `figures/08_figures/dotplot_grouped.svg` |
+| **Fig. 1E** | Cluster composition, GM and PD (pooled cells) | [`08_figures.R`](scripts/08_figures.R) | `figures/08_figures/donut_GM.svg`, `donut_PD.svg`; `results/08_figures/donut_pooled_percentages.csv` |
+| **Fig. 1F** | Pseudobulk DE, PD vs GM, all T cells; TOX2, BCL6, CXCR5 and CXCL13 highlighted | [`09_pseudobulk_de.R`](scripts/09_pseudobulk_de.R) | `figures/09_pseudobulk_de/DE_volcano_PD_vs_GM_allTcells.svg`; `results/09_pseudobulk_de/DE_PD_vs_GM_allTcells.csv` |
+| **Fig. 1G** | Differential abundance: odds ratio (95% CI) and FDR, donor-blocked propeller | [`07_differential_abundance.R`](scripts/07_differential_abundance.R), [`08_figures.R`](scripts/08_figures.R) | `figures/08_figures/DA_bar_blocked.svg`; `results/07_differential_abundance/DA_propeller_donor_blocked.csv` |
+| **Supp. Table 1** | DA for all clusters: donor-blocked (primary), sample-level and donor-level models | [`07_differential_abundance.R`](scripts/07_differential_abundance.R) | `results/07_differential_abundance/DA_propeller_donor_blocked.csv`, `DA_all_tests_wide.csv` (assembled as `published_results/04_Tcell_Final/results/Propeller_DA_results.xlsx`) |
+| **Fig. 7A–C** (human) | B-helper module in human T-cell clusters | [`06_CrossSpecies_Tph`](../Mouse-data-analysis/06_CrossSpecies_Tph/scripts/04_bhelper_featureumap.R) | inputs: `objects/06_tcell_final.rds`, `results/04_tcell_reclustering/tcell_subset_markers.csv` |
 
 Figure 1A–B (imaging mass cytometry) is not produced by code in this repository.
 
@@ -35,16 +37,16 @@ The manuscript uses functional names. The code and the tables use marker-based l
 ## Steps
 | Step | Script | What it does | Feeds | Runs on |
 |---|---|---|---|---|
-| 00 | `00_integration.R` | Per-sample QC (200–6,000 genes, < 20% mitochondrial), merge, CCA and Harmony integration, annotation | — | CCR |
+| 00 | `00_integration.R` | Per-sample QC (200–6,000 genes, < 20% mitochondrial), merge, CCA and Harmony integration, clustering | — | CCR |
 | 01 | `01_qc_integrated_object.R` | Sanity checks on the integrated object | — | CCR |
 | 02 | `02_global_clustering.R` | Resolution sweep on the Harmony embedding; res 0.1 = 12 clusters | — | CCR |
 | 03 | `03_immune_subset.R` | Immune clusters re-integrated and reclustered (res 0.2, 13 clusters); T cells = immune clusters 0 and 1 | — | CCR |
 | 04 | `04_tcell_reclustering.R` | T cells re-integrated and reclustered; res 0.4 = 11 clusters; markers | Fig. 7 (markers) | CCR |
 | 05 | `05_tcell_validation.R` | Validation of clusters 3 (Treg/Th17), 8 (Tph/Tfh) and 9 (QC) | — | CCR |
 | 06 | `06_tcell_cleanup_annotation.R` | Removes Ig-high doublets and cluster 9, merges 10 into 0, labels C1–C9 | Fig. 1, 7 | local |
-| 07 | `07_differential_abundance.R` | Composition; Wilcoxon and propeller tests; **primary: donor-blocked propeller**; leave-one-donor-out; ρ sensitivity | Fig. 1G, Supp. Table 1 | local |
-| 08 | `08_figures.R` | Figure 1 panels C, D, E and G, plus supporting plots | Fig. 1C–E, G | local |
-| 09 | `09_pseudobulk_de.R` | Pseudobulk DE, PD vs GM: all T cells and each cluster C1–C9 | Fig. 1F | local |
+| 07 | [`07_differential_abundance.R`](scripts/07_differential_abundance.R) | Composition; Wilcoxon and propeller tests; **primary: donor-blocked propeller**; leave-one-donor-out; ρ sensitivity | Fig. 1G, Supp. Table 1 | local |
+| 08 | [`08_figures.R`](scripts/08_figures.R) | Figure 1 panels C, D, E and G, plus supporting plots | Fig. 1C–E, G | local |
+| 09 | [`09_pseudobulk_de.R`](scripts/09_pseudobulk_de.R) | Pseudobulk DE, PD vs GM: all T cells and each cluster C1–C9 | Fig. 1F | local |
 
 Cell numbers: 110,166 integrated cells → 48,346 immune cells → 21,899 T cells → 20,802 T cells in C1–C9.
 
@@ -90,7 +92,7 @@ Run every script from this folder; each one reads `config.R`. Set `PIPELINE_OUT`
 mkdir -p output/objects
 cp <deposited>/integrated_seurat_object.rds output/objects/00_integrated.rds
 sbatch run/run_ccr_steps00-05.slurm                       # steps 01-05
-# from raw Cell Ranger output instead (step 00 also needs internet for scType/CloudAzimuth):
+# from raw Cell Ranger output instead:
 RAW_10X_DIR=/path/to/cellranger STEPS="00 01 02 03 04 05" sbatch run/run_ccr_steps00-05.slurm
 ```
 Harmony 0.1.0 is required to reproduce the published clusters exactly. Harmony ≥ 1.0 gives a different embedding.
